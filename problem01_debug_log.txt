@@ -1,0 +1,10 @@
+Breakpoint 1 at 0x40146e: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem01.c, line 4.
+Starting program: c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem01.exe 
+[New Thread 1252.0xaec]
+[New Thread 1252.0x62f4]
+
+Breakpoint 1, main ()
+    at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem01.c:4
+4	    printf("Hello World");
+Continuing.
+[Inferior 1 (process 1252) exited normally]
