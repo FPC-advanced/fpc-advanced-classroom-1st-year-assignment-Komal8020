@@ -1,0 +1,13 @@
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem04.c: In function 'main':
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem04.c:17:9: warning: passing argument 1 of 'Add' makes integer from pointer without a cast [-Wint-conversion]
+     Add(&a,&b,&sum);
+         ^
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem04.c:6:6: note: expected 'int' but argument is of type 'int *'
+ void Add(int a, int b, int *sum) {
+      ^~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem04.c:17:12: warning: passing argument 2 of 'Add' makes integer from pointer without a cast [-Wint-conversion]
+     Add(&a,&b,&sum);
+            ^
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem04.c:6:6: note: expected 'int' but argument is of type 'int *'
+ void Add(int a, int b, int *sum) {
+      ^~~
