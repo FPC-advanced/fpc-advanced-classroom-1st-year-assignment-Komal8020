@@ -8,7 +8,7 @@ void Add(int a, int b, int *sum) {
 }
 
 void output(int sum) {
-    printf("The sum is %d\n", sum);
+    printf("The sum is %d\n",sum);
 }
 
 int main() {
