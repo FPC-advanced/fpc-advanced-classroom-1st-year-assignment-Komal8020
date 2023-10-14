@@ -3,11 +3,12 @@ int input() {
     int a;
     printf("Enter the number: ");
     scanf("%d",&a);
+    return a;
 }
 int Add(int a, int b) {
     int sum;
     sum = a+b;
-   
+   return sum;
 } 
 void output(int a, int b, int sum) {
     printf("The sum of %d + %d is %d\n",a,b,sum);
