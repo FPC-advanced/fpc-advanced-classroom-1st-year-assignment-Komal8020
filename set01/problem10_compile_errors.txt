@@ -1,0 +1,7 @@
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem10.c: In function 'stringcompare':
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem10.c:16:20: warning: return makes integer from pointer without a cast [-Wint-conversion]
+             return string2;
+                    ^~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem10.c:18:20: warning: return makes integer from pointer without a cast [-Wint-conversion]
+             return string1;
+                    ^~~~~~~
