@@ -13,9 +13,9 @@ int stringcompare(char *string1, char *string2) {
     int i = 0;
     while (string1[i] != '\0' || string2[i] != '\0') {
         if (string1[i] < string2[i]) {
-            return string2;
+            return -1;
         } else if (string1[i] > string2[i]) {
-            return string1;
+            return 1;
         }
         i++;
     }
