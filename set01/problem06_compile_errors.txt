@@ -1,0 +1,7 @@
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem06.c: In function 'compare':
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem06.c:13:12: warning: 'return' with a value, in function returning void
+     return *largest;
+            ^~~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem06.c:6:6: note: declared here
+ void compare(int a,int b, int c, int *largest) {
+      ^~~~~~~
