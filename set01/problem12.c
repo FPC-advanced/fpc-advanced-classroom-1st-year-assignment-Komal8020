@@ -39,8 +39,6 @@ void output(int n, Complex c[n], Complex result) {
 }
 int main() {
     int n = get_n();
-    Complex num;
-    inputComplex(num);
     Complex c[n],a,b;
     input_n_complex(n,c);
     add(a,b);

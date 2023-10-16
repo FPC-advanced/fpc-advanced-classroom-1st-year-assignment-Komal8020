@@ -23,10 +23,3 @@ c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal
      printf("The sum of %d of complex number is %f + %fi\n",n,result.real, result.imaginary);
      ^~~~~~
 c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem12.c:38:5: note: include '<stdio.h>' or provide a declaration of 'printf'
-c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem12.c: In function 'main':
-c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem12.c:43:5: warning: implicit declaration of function 'inputComplex' [-Wimplicit-function-declaration]
-     inputComplex(num);
-     ^~~~~~~~~~~~
-C:\Users\komal\AppData\Local\Temp\ccaYgEvR.o: In function `main':
-c:/Users/komal/OneDrive/Desktop/fpc-advanced-classroom-1st-year-assignment-Komal8020/set01/problem12.c:43: undefined reference to `inputComplex'
-collect2.exe: error: ld returned 1 exit status
