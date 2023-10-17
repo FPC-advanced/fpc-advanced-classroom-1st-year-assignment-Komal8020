@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<string.h>
 
 // Function to input two strings
 void input_two_strings(char *string1, char *string2) {

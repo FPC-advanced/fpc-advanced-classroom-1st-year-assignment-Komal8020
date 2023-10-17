@@ -1,10 +1,2 @@
-c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem10.c: In function 'stringcompare':
-c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem10.c:13:10: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
-      if (strlen(string1) != strlen(string2)) {
-          ^~~~~~
-c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem10.c:13:10: warning: incompatible implicit declaration of built-in function 'strlen'
-c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem10.c:13:10: note: include '<string.h>' or provide a declaration of 'strlen'
-c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem10.c:17:25: warning: incompatible implicit declaration of built-in function 'strlen'
-     for (int i = 0; i < strlen(string1); i++) {
-                         ^~~~~~
-c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem10.c:17:25: note: include '<string.h>' or provide a declaration of 'strlen'
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem10.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
