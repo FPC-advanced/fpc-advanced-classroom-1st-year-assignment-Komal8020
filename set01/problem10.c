@@ -15,8 +15,8 @@ int stringcompare(char *string1, char *string2) {
     }
     
     for (int i = 0; i < strlen(string1); i++) {
-        if (string1[i] != string2[i]) {
-            return 0;
+     if (string1[i] != string2[i]) {
+        return 0;
         }
     }
     
@@ -26,11 +26,11 @@ int stringcompare(char *string1, char *string2) {
 // Function to output the comparison result
 void output(char *string1, char *string2, int result) {
     if (result < 0) {
-        printf("%s is lesser than %s\n", string1, string2);
+        printf("%s is greater\n",string1);
     } else if (result > 0) {
-        printf("%s is greater than %s\n", string1, string2);
+        printf("%s is greater\n",string2);
     } else {
-        printf("%s is equal to %s\n", string1, string2);
+       printf("Both are equal");
     }
 }
 

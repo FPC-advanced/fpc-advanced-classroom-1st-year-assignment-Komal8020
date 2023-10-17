@@ -1,3 +1,4 @@
+#include<stdio.h>
 struct _complex {
 	float real;
     float imaginary;
