@@ -10,17 +10,18 @@ void input_two_strings(char *string1, char *string2) {
 
 // Function to compare two strings character by character
 int stringcompare(char *string1, char *string2) {
-    int i = 0;
-    while (string1[i] != '\0' || string2[i] != '\0') {
-        if (string1[i] < string2[i]) {
-            return -1;
-        } else if (string1[i] > string2[i]) {
-            return 1;
-        }
-        i++;
+     if (strlen(string1) != strlen(string2)) {
+        return 0;
     }
-    return 0; // strings are equal
-}
+    
+    for (int i = 0; i < strlen(string1); i++) {
+        if (string1[i] != string2[i]) {
+            return 0;
+        }
+    }
+    
+    return 1;
+    }
 
 // Function to output the comparison result
 void output(char *string1, char *string2, int result) {
