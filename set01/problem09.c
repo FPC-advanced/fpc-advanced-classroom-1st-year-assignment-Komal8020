@@ -13,7 +13,7 @@ float mysqrt(float x) {
    float guess = x/2;
    float next = (guess + x/guess)/2;
    while(fabs(next-guess)>0.000001)
-  {
+  { 
     guess= next;
     next=(guess+x/guess)/2 ;
   }
