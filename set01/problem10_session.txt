@@ -56,3 +56,15 @@ collect2.exe: error: ld returned 1 exit status
 
 collect2.exe: error: ld returned 1 exit status
 ]633;E;gcc -g "c:\x5cUsers\x5ckomal\x5cOneDrive\x5cDesktop\x5cfpc-advanced-classroom-1st-year-assignment-Komal8020\x5cset01\x5cproblem10.c" -o "c:\x5cUsers\x5ckomal\x5cOneDrive\x5cDesktop\x5cfpc-advanced-classroom-1st-year-assignment-Komal8020\x5cset01\x5cproblem10.exe" 2>&1;9aa63d83-0a2f-4586-bc1e-19246b5ffc95]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5ckomal\x5cOneDrive\x5cDesktop\x5cfpc-advanced-classroom-1st-year-assignment-Komal8020PS C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020> ]633;B
+PS>gcc -g "c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem10.c" -o "c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem10.exe" 2>&1
+gcc : c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem10.exe: Permission denied
+At line:1 char:1
++ gcc -g "c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-ye ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (c:/mingw/bin/.....rmission denied:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+collect2.exe: error: ld returned 1 exit status
+
+]633;E;gcc -g "c:\x5cUsers\x5ckomal\x5cOneDrive\x5cDesktop\x5cfpc-advanced-classroom-1st-year-assignment-Komal8020\x5cset01\x5cproblem10.c" -o "c:\x5cUsers\x5ckomal\x5cOneDrive\x5cDesktop\x5cfpc-advanced-classroom-1st-year-assignment-Komal8020\x5cset01\x5cproblem10.exe" 2>&1;9aa63d83-0a2f-4586-bc1e-19246b5ffc95]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5ckomal\x5cOneDrive\x5cDesktop\x5cfpc-advanced-classroom-1st-year-assignment-Komal8020PS C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020> ]633;B
