@@ -1,12 +1,12 @@
 ﻿**********************
 Windows PowerShell transcript start
-Start time: 20231019155629
+Start time: 20231019220708
 Username: DESKTOP-RNF8SFG\komal
 RunAs User: DESKTOP-RNF8SFG\komal
 Configuration Name: 
 Machine: DESKTOP-RNF8SFG (Microsoft Windows NT 10.0.22621.0)
 Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\komal\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
-Process ID: 1096
+Process ID: 15616
 PSVersion: 5.1.22621.2428
 PSEdition: Desktop
 PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2428
@@ -17,9 +17,30 @@ PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem03_session.txt
-]633;E;Start-Transcript -Path "c:\x5cUsers\x5ckomal\x5cOneDrive\x5cDesktop\x5cfpc-advanced-classroom-1st-year-assignment-Komal8020\x5cset02\x5cproblem03_session.txt";020cfdfc-aaff-43ec-bad9-1b9da9702ce1]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5ckomal\x5cOneDrive\x5cDesktop\x5cfpc-advanced-classroom-1st-year-assignment-Komal8020PS C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020> ]633;B
-PS>Stop-Transcript
-**********************
-Windows PowerShell transcript end
-End time: 20231019160632
-**********************
+]633;E;Start-Transcript -Path "c:\x5cUsers\x5ckomal\x5cOneDrive\x5cDesktop\x5cfpc-advanced-classroom-1st-year-assignment-Komal8020\x5cset02\x5cproblem03_session.txt";3cb879ec-606b-4a74-b5ef-e5b3c478f4ec]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5ckomal\x5cOneDrive\x5cDesktop\x5cfpc-advanced-classroom-1st-year-assignment-Komal8020PS C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020> ]633;B
+PS>gcc -g "c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem03.c" -o "c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem03.exe" 2>&1
+gcc : c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem03.c: In function 'is_composite':
+At line:1 char:1
++ gcc -g "c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-ye ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (c:\Users\komal\...'is_composite'::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem03.c:13:18: error: expected ',' or ';' before ')' token
+     for(int i = 2) {
+                  ^
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem03.c:16:1: error: expected expression before '}' token
+ }
+ ^
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem03.c:16:1: error: expected expression before '}' token
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem03.c:16:1: error: expected expression before '}' token
+
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem03.c:13:18: error: expected ',' or ';' before ')' token
+     for(int i = 2) {
+                  ^
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem03.c:16:1: error: expected expression before '}' token
+ }
+ ^
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem03.c:16:1: error: expected expression before '}' token
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem03.c:16:1: error: expected expression before '}' token
+]633;E;gcc -g "c:\x5cUsers\x5ckomal\x5cOneDrive\x5cDesktop\x5cfpc-advanced-classroom-1st-year-assignment-Komal8020\x5cset02\x5cproblem03.c" -o "c:\x5cUsers\x5ckomal\x5cOneDrive\x5cDesktop\x5cfpc-advanced-classroom-1st-year-assignment-Komal8020\x5cset02\x5cproblem03.exe" 2>&1;3cb879ec-606b-4a74-b5ef-e5b3c478f4ec]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5ckomal\x5cOneDrive\x5cDesktop\x5cfpc-advanced-classroom-1st-year-assignment-Komal8020PS C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020> ]633;B
