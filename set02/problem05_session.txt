@@ -18,3 +18,8 @@ SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem05_session.txt
 ]633;E;Start-Transcript -Path "c:\x5cUsers\x5ckomal\x5cOneDrive\x5cDesktop\x5cfpc-advanced-classroom-1st-year-assignment-Komal8020\x5cset02\x5cproblem05_session.txt";77a05761-ac2e-420c-9fd2-3eaa1b7eff7a]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5ckomal\x5cOneDrive\x5cDesktop\x5cfpc-advanced-classroom-1st-year-assignment-Komal8020PS C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020> ]633;B
+PS>Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20231022201057
+**********************
