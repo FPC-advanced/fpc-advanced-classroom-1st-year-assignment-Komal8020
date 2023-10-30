@@ -1,0 +1,54 @@
+warning: Source file is more recent than executable.
+20	void output(char *a, char *reverse_a) {
+21	      printf("The string which is to be reversed:%s\n", a);
+22	       printf("Reversed string: %s\n", reverse_a);
+23	}
+24	
+25	int main() {
+26	    char input[100];
+27	    char reversed[100];
+28	
+29	    input_string(input);
+30	    str_reverse(input, reversed);
+31	    output(input, reversed);
+32	
+33	    return 0;
+34	}
+Breakpoint 1 at 0x40149c: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem06.c, line 13.
+Breakpoint 2 at 0x4014a5: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem06.c, line 14.
+Breakpoint 3 at 0x4014cc: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem06.c, line 16.
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x0040149c in str_reverse 
+                                           at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem06.c:13
+2       breakpoint     keep y   0x004014a5 in str_reverse 
+                                           at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem06.c:14
+3       breakpoint     keep y   0x004014cc in str_reverse 
+                                           at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem06.c:16
+Starting program: C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02/./problem06.exe 
+[New Thread 18976.0x449c]
+[New Thread 18976.0x5738]
+
+Breakpoint 1, str_reverse (str=0x61febc "komal", rev_str=0x61fe58 "¨þa")
+    at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem06.c:13
+13	    for (int i = 0; i < len; i++) {
+
+Breakpoint 2, str_reverse (str=0x61febc "komal", rev_str=0x61fe58 "¨þa")
+    at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem06.c:14
+14	        rev_str[i] = str[len - i - 1];
+13	    for (int i = 0; i < len; i++) {
+
+Breakpoint 2, str_reverse (str=0x61febc "komal", rev_str=0x61fe58 "lþa")
+    at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem06.c:14
+14	        rev_str[i] = str[len - i - 1];
+No symbol "a" in current context.
+No symbol "n" in current context.
+No symbol "reverse_a" in current context.
+No symbol "result" in current context.
+Undefined command: "git".  Try "help".
+Undefined command: "git".  Try "help".
+Undefined command: "git".  Try "help".
+A debugging session is active.
+
+	Inferior 1 [process 18976] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5

@@ -23,12 +23,12 @@ void output(char *a, char *reverse_a) {
 }
 
 int main() {
-    char input[100];
-    char reversed[100];
+    char a[100];
+    char reverse[100];
 
-    input_string(input);
-    str_reverse(input, reversed);
-    output(input, reversed);
+    input_string(a);
+    str_reverse(a, reverse);
+    output(a, reverse);
 
     return 0;
 }
