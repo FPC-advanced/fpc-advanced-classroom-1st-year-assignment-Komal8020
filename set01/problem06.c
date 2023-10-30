@@ -18,7 +18,7 @@ void output(int largest) {
 int main() {
     int a,b,c,largest;
     input(&a,&b,&c);
-    compare(a,b,c,&largest);
+    (a,b,c,&largest);
     output(largest);
     return 0;
 }

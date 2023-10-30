@@ -1,0 +1,20 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20231030091008
+Username: DESKTOP-RNF8SFG\komal
+RunAs User: DESKTOP-RNF8SFG\komal
+Configuration Name: 
+Machine: DESKTOP-RNF8SFG (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\komal\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+Process ID: 17952
+PSVersion: 5.1.22621.2428
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2428
+BuildVersion: 10.0.22621.2428
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem04_session.txt
+]633;E;Start-Transcript -Path "c:\x5cUsers\x5ckomal\x5cOneDrive\x5cDesktop\x5cfpc-advanced-classroom-1st-year-assignment-Komal8020\x5cset02\x5cproblem04_session.txt";a97d9c1e-1117-4613-85c2-00078f37c85e]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5ckomal\x5cOneDrive\x5cDesktop\x5cfpc-advanced-classroom-1st-year-assignment-Komal8020PS C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020> ]633;B
