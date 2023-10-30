@@ -18,8 +18,8 @@ void str_reverse(char *str, char *rev_str) {
 
 // Function to output a string
 void output(char *a, char *reverse_a) {
-    printf("Original string: %s\n", a);
-    printf("Reversed string: %s\n", reverse_a);
+      printf("The string which is to be reversed:%s\n", a);
+       printf("Reversed string: %s\n", reverse_a);
 }
 
 int main() {
