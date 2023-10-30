@@ -55,6 +55,7 @@ int main() {
     int n;
     n = input_n();
     Triangle t[100], smallest;
+    input_n_triangles(n,t);
     find_n_areas(n,t);
     smallest = find_smallest_triangle(n,t);
     output(n,t,smallest);
