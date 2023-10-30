@@ -2,4 +2,16 @@
 
 GDB debug log -   10/17/2023, 11:41:49 AM
 
-  
+  13	    *area = (base * height) *0.5;
+14	}
+15	
+16	void output(float base, float height, float area) {
+17	    printf("The area of triangle having %f as height and %f as base is %f",height, base, area);
+18	}
+19	
+20	int main() {
+21	    float base, height, area;
+22	    input(&base, &height);
+Undefined command: "git".  Try "help".
+Undefined command: "git".  Try "help".
+Undefined command: "git".  Try "help".
