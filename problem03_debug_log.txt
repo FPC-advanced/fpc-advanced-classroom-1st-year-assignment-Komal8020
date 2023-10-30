@@ -1,9 +1,8 @@
-No symbol table is loaded.  Use the "file" command.
-No symbol table is loaded.  Use the "file" command.
-Starting program:  
-No executable specified, use `target exec'.
-No executable file now.
-Undefined command: "problem08".  Try "help".
+The program is not being run.
+Undefined command: "ls".  Try "help".
+Undefined command: "ls".  Try "help".
+Undefined command: "ls".  Try "help".
+Undefined command: "ls".  Try "help".
 List of classes of commands:
 
 aliases -- Aliases of other commands
@@ -24,6 +23,4 @@ Type "help all" for the list of all commands.
 Type "help" followed by command name for full documentation.
 Type "apropos word" to search for commands related to "word".
 Command name abbreviations are allowed if unambiguous.
-Undefined command: "git".  Try "help".
-Undefined command: "git".  Try "help".
-Undefined command: "git".  Try "help".
+Undefined command: "files".  Try "help".
