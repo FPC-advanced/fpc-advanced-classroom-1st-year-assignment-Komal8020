@@ -25,3 +25,21 @@ PS>c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Ko
 >> TerminatingError(): "Program 'problem08.exe' failed to run: Unknown error (0xfffffffe)At line:1 char:1
 + c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assig ...
 + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~."
+Program 'problem08.exe' failed to run: Unknown error (0xfffffffe)At line:1 char:1
++ c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assig ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.
+At line:1 char:1
++ c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assig ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [], ApplicationFailedException
+    + FullyQualifiedErrorId : NativeCommandFailed
+Program 'problem08.exe' failed to run: Unknown error (0xfffffffe)At line:1 char:1
++ c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assig ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.
+At line:1 char:1
++ c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assig ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [], ApplicationFailedException
+    + FullyQualifiedErrorId : NativeCommandFailed
+
+]633;E;c:\x5cUsers\x5ckomal\x5cOneDrive\x5cDesktop\x5cfpc-advanced-classroom-1st-year-assignment-Komal8020\x5cset02\x5cproblem08.exe;a97d9c1e-1117-4613-85c2-00078f37c85e]633;D;1]633;A]633;P;Cwd=C:\x5cUsers\x5ckomal\x5cOneDrive\x5cDesktop\x5cfpc-advanced-classroom-1st-year-assignment-Komal8020PS C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020> ]633;B
