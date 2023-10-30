@@ -29,3 +29,14 @@ The sum of composite number is 12
 PS>git add .
 
 ]633;E;git add .;a97d9c1e-1117-4613-85c2-00078f37c85e]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5ckomal\x5cOneDrive\x5cDesktop\x5cfpc-advanced-classroom-1st-year-assignment-Komal8020PS C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020> ]633;B
+PS>git commit -m "committed 10/30/2023, 9:10:28 AM"
+
+]633;E;git commit -m "committed 10/30/2023, 9:10:28 AM";a97d9c1e-1117-4613-85c2-00078f37c85e]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5ckomal\x5cOneDrive\x5cDesktop\x5cfpc-advanced-classroom-1st-year-assignment-Komal8020PS C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020> ]633;B
+PS>git push
+
+]633;E;git push;a97d9c1e-1117-4613-85c2-00078f37c85e]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5ckomal\x5cOneDrive\x5cDesktop\x5cfpc-advanced-classroom-1st-year-assignment-Komal8020PS C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020> ]633;B
+PS>Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20231030091039
+**********************
