@@ -2,3 +2,16 @@ Compilation started at 10/30/2023, 10:58:32 PM
 c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 10/30/2023, 10:58:33 PM
+Compilation started at 10/30/2023, 11:01:52 PM
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem01.c: In function 'find_distance':
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem01.c:16:21: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+    float distance = sqrt(pow(x2-x1, 2) + pow(y2-y1, 2));
+                     ^~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem01.c:16:21: warning: incompatible implicit declaration of built-in function 'sqrt'
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem01.c:16:21: note: include '<math.h>' or provide a declaration of 'sqrt'
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem01.c:16:26: warning: implicit declaration of function 'pow' [-Wimplicit-function-declaration]
+    float distance = sqrt(pow(x2-x1, 2) + pow(y2-y1, 2));
+                          ^~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem01.c:16:26: warning: incompatible implicit declaration of built-in function 'pow'
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem01.c:16:26: note: include '<math.h>' or provide a declaration of 'pow'
+Compilation finished at 10/30/2023, 11:01:53 PM
