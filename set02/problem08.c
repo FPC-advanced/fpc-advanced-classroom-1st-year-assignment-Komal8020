@@ -47,8 +47,8 @@ return smallest;
 void output(int n, Triangle t[], Triangle smallest) {
     printf("Area of %d  triangle :\n",n);
     for(int i = 0; i < n; i++) {
-     printf("Triangle no. %d\n Base:%f\n Altitude: %f\n Area: %f\n", i, t[i].base, t[i].altitude, t[i].area); 
-     printf("Smallest Triangle:\nBase: %f\n, Altitude: %f\n, Area: %f\n", smallest.base, smallest.altitude, smallest.area);
+     printf("Triangle no. %d Base:%f\n Altitude: %f\n Area: %f\n", i, t[i].base, t[i].altitude, t[i].area); 
+     printf("Smallest Triangle:\nBase: %f\n Altitude: %f\n Area: %f\n", smallest.base, smallest.altitude, smallest.area);
     }
 }
 int main() {
