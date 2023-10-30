@@ -22,7 +22,7 @@ Triangle input_triangle() {
 }
 void input_n_triangles(int n, Triangle t[]) {
     for(int i = 0; i < n; i++) {
-        printf("Enter %d no. of triangle:", i);
+        printf("Enter %d no. of triangle:\n", i);
         t[i] = input_triangle();
     }
 
