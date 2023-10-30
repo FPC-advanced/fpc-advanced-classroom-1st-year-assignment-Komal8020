@@ -1,0 +1,13 @@
+No symbol table is loaded.  Use the "file" command.
+Undefined command: "gdb".  Try "help".
+No symbol table is loaded.  Use the "file" command.
+No executable file now.
+No symbol file now.
+Undefined command: "gcc".  Try "help".
+Undefined command: "".  Try "help".
+No symbol table is loaded.  Use the "file" command.
+Undefined command: "gdb".  Try "help".
+The program is not being run.
+Undefined set logging command: "enabled on".  Try "help set logging".
+Already logging to problem08_debug_log.txt.
+No symbol table is loaded.  Use the "file" command.
