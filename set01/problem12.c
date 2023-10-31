@@ -11,7 +11,7 @@ int get_n() {
     return n;
 }
 
-void input_n_complex(int n,Complex c[n]) {
+void input_n_complex(int n,Complex c[]) {
     printf("Enter %d values for the array:\n", n);
     for (int i = 0; i < n; i++) {
      printf("\nEnter the real and imaginary part of %d complex number:",i+1);
@@ -24,7 +24,7 @@ Complex add(Complex a, Complex b) {
     sum.imaginary = a.imaginary + b.imaginary;
     return sum;
 }
-Complex add_n_complex(int n, Complex c[n]) {
+Complex add_n_complex(int n, Complex c[]) {
     Complex sum;
     sum.real = 0;
     sum.imaginary = 0;
@@ -35,12 +35,12 @@ Complex add_n_complex(int n, Complex c[n]) {
     }
     return sum;
 }
-void output(int n, Complex c[n], Complex result) {
+void output(int n, Complex c[], Complex result) {
     printf("The sum of %d of complex number is %f + %fi\n",n,result.real, result.imaginary);
 }
 int main() {
     int n = get_n();
-    Complex c[n],a,b;
+    Complex c[300],a,b;
     input_n_complex(n,c);
     add(a,b);
     Complex result = add_n_complex(n,c);
