@@ -1,0 +1,37 @@
++l
+1	../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S: No such file or directory.
++program04
+Undefined command: "program04".  Try "help".
++problem04
+Undefined command: "problem04".  Try "help".
++l
+1	in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
++r
+Starting program: c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03/./problem04.exe 
+[New Thread 15948.0x1dac]
+[New Thread 15948.0x41d4]
+[Inferior 1 (process 15948) exited normally]
++b 11
+Breakpoint 1 at 0x4020b0: file ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S, line 11.
++b 14
+Note: breakpoint 1 also set at pc 0x4020b0.
+Breakpoint 2 at 0x4020b0: file ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S, line 14.
++b 15
+Note: breakpoints 1 and 2 also set at pc 0x4020b0.
+Breakpoint 3 at 0x4020b0: file ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S, line 15.
++b 16
+Note: breakpoints 1, 2 and 3 also set at pc 0x4020b0.
+Breakpoint 4 at 0x4020b0: file ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S, line 16.
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x004020b0 ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:11
+2       breakpoint     keep y   0x004020b0 ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:14
+3       breakpoint     keep y   0x004020b0 ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:15
+4       breakpoint     keep y   0x004020b0 ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:16
++print n
+No symbol "n" in current context.
++print n1
+No symbol "n1" in current context.
++fibo
+Undefined command: "fibo".  Try "help".
++q
