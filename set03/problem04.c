@@ -18,9 +18,8 @@ for(int i =2; i < n; i++) {
 return fibo;
 }
 void output(int n, int fibo) {
-    for(int i = 0; i<n; i++) {
         printf("The %dth number in fibonacci sequence is %d",n,fibo);
-}
+
 }
 int main() {
     int n, fibo;
