@@ -1,0 +1,55 @@
++l
+31	void find_length(Line *l) {
+32	    l->distance = sqrt(pow((l->p2.x - l->p1.x),2) +pow((l->p2.y - l->p1.y),2));
+33	}
+34	void output(Line l) {
+35	  printf("Coordinates of p1:(%f,%f)\n",l.p1.x, l.p1.y);
+36	  printf("Coordinates of p2:(%f,%f)\n",l.p2.x, l.p2.y);
+37	  printf("Length of a line is:%f\n",l.distance);
+38	}
+39	int main() {
+40	    Line l = input_line();
++l
+41	    find_length(&l);
+42	    output(l);
+43	    return 0;
+44	}+b 26
+Breakpoint 1 at 0x4014a9: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem07.c, line 26.
++b 28
+Breakpoint 2 at 0x4014cf: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem07.c, line 28.
++b 27
+Breakpoint 3 at 0x4014c3: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem07.c, line 27.
++b 32
+Breakpoint 4 at 0x401514: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem07.c, line 32.
++b 20
+Breakpoint 5 at 0x401472: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem07.c, line 20.
++b 35
+Breakpoint 6 at 0x401576: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem07.c, line 35.
++b 36
+Breakpoint 7 at 0x401592: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem07.c, line 36.
++b 37
+Breakpoint 8 at 0x4015ae: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem07.c, line 37.
++r
+Starting program: c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03/./problem07.exe 
+[New Thread 16168.0x6b98]
+[New Thread 16168.0x2e3c]
+
+Breakpoint 1, input_line () at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem07.c:26
+26	    scanf("%f",l.p1);
++r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
+Starting program: c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03/./problem07.exe 
+[New Thread 30240.0x42ac]
+[New Thread 30240.0x6bfc]
+
+Breakpoint 1, input_line () at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem07.c:26
+26	    scanf("%f",l.p1);
++2 3
+Undefined command: "2".  Try "help".
++q
+A debugging session is active.
+
+	Inferior 1 [process 30240] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5

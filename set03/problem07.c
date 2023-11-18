@@ -16,20 +16,20 @@ void find_length(Line *l);
 void output(Line l);
 Point input_point() {
     Point p;
-    printf("Enter x and y coordinates:");
+    printf("Enter x and y coordinates:\n");
     scanf("%f %f",&p.x, &p.y);
     return p;
 }
 Line input_line() {
     Line l;
     printf("Enter the coordinates for p1:\n");
-    scanf("%f",l.p1);
+    scanf("%f %f",&l.p1.x, &l.p1.y);
     printf("Enter the coordinates for p2:\n");
-    scanf("%f",l.p2);
+    scanf("%f %f",&l.p2.x, &l.p2.y);
     return l;
 }
 void find_length(Line *l) {
-    l->distance = sqrt(pow((l->p2.x - l->p1.x),2) +pow((l->p2.y - l->p1.y),2));
+    l->distance = sqrt(pow((l->p2.x - l->p1.x),2) + pow((l->p2.y - l->p1.y),2));
 }
 void output(Line l) {
   printf("Coordinates of p1:(%f,%f)\n",l.p1.x, l.p1.y);
