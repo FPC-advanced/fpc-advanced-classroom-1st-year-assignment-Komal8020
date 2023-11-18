@@ -1,4 +1,4 @@
-// Write a program to find the permeter of a polygon
+// Write a program to find the perimeter of a polygon
 typedef struct point {
     float x,y;
 } Point;
@@ -20,7 +20,7 @@ int input_n() {
     return n;
 }
 Point input_point(char *prompt_msg) {
-
+ 
 }
 int input_polygon(Polygon *p) {
 

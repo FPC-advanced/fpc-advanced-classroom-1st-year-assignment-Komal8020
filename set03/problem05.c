@@ -12,5 +12,14 @@ int input_array_size() {
     return n;
 }
 void init_array(int n, int a[]) {
-    pri
+    for(int i = 2; i <= n;i++) {
+      a[i] = 1;
+    }
 }
+void eratosthenes_sieve(int n, int a[]) {
+    for (int i = 2; i*i <= n; i++) {
+        if(n % i == 0) {
+
+        }
+    }
+}   
