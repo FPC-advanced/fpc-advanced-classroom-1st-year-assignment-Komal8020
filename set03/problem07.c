@@ -23,9 +23,9 @@ Point input_point() {
 Line input_line() {
     Line l;
     printf("Enter the coordinates for p1:\n");
-    scanf("%f %f",&l.p1.x, &l.p1.y);
+    l.p1 = input_point();
     printf("Enter the coordinates for p2:\n");
-    scanf("%f %f",&l.p2.x, &l.p2.y);
+    l.p2 = input_point();
     return l;
 }
 void find_length(Line *l) {
