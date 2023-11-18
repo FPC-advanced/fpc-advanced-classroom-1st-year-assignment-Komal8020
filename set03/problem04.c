@@ -8,6 +8,11 @@ int input() {
     return n;
 }
 int find_fibo(int n) {
+    if(n ==0) {
+        return 0;
+    } if (n==1) {
+        return 1;
+    }
 int n1 = 0; int n2= 1;
 int fibo;
 for(int i =2; i <= n; i++) {
