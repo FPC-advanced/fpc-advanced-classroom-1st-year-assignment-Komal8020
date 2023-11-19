@@ -21,3 +21,21 @@ Breakpoint 1 at 0x4014b3: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-clas
 Breakpoint 2 at 0x4014cb: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem02.c, line 17.
 +b 18
 Breakpoint 3 at 0x4014d7: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem02.c, line 18.
++b 19
+Breakpoint 4 at 0x4014ef: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem02.c, line 19.
++b 20 
+Breakpoint 5 at 0x4014fd: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem02.c, line 20.
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x004014b3 in compare at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem02.c:16
+2       breakpoint     keep y   0x004014cb in compare at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem02.c:17
+3       breakpoint     keep y   0x004014d7 in compare at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem02.c:18
+4       breakpoint     keep y   0x004014ef in compare at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem02.c:19
+5       breakpoint     keep y   0x004014fd in compare at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem02.c:20
++r
+Starting program: c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04/./problem02.exe 
+[New Thread 22296.0x2ac]
+[New Thread 22296.0x2688]
+
+Program received signal SIGSEGV, Segmentation fault.
+0x764f4937 in ungetwc () from C:\Windows\SysWOW64\msvcrt.dll
