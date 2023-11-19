@@ -6,16 +6,16 @@ typedef struct {
 Fraction input() {
     Fraction f;
     printf("Enter the numerator:");
-    scanf("%d",f.num);
+    scanf("%d",&f.num);
     printf("Enter the denominator:");
-    scanf("%d", f.den);
+    scanf("%d",&f.den);
     return f;
 }
 Fraction compare(Fraction f1, Fraction f2, Fraction f3) {
     Fraction smallest;
     if (f1.num/f1.den < f2.num/f2.den) {
         smallest = f1;
-    } if (f2.num/f2.den < f3.num/f3.den) {
+    } else if (f2.num/f2.den < f3.num/f3.den) {
         smallest = f2;
     } else {
         smallest = f3;
