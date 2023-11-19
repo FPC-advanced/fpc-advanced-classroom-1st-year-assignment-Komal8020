@@ -1,0 +1,18 @@
+Compilation started at 11/19/2023, 10:02:23 PM
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem02.c: In function 'input':
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem02.c:7:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("Enter the numerator:");
+     ^~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem02.c:7:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem02.c:7:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem02.c:8:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%d",f.num);
+     ^~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem02.c:8:5: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem02.c:8:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem02.c: In function 'output':
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem02.c:25:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("The smallest of %d/%d, %d/%d and %d/%d is %d/%d",f1.num,f1.den, f2.num, f2.den, f3.num, f3.den, smallest.num, smallest.den);
+     ^~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem02.c:25:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 11/19/2023, 10:02:23 PM

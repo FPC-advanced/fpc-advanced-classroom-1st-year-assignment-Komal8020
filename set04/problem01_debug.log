@@ -1,0 +1,62 @@
++l
+12	void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den) {
+13	*res_num = (num1 * den2) + (num2 * den1);
+14	*res_den = (den1 * den2);
+15	}
+16	void output(int num1, int den1, int num2, int den2, int res_num, int res_den ) {
+17	    printf("The sum of %d/%d and %d/%d is %d/%d",num1,den1, num2, den2, res_num, res_den);
+18	}
+19	int main() {
+20	    int num1, num2, den1, den2, res_num, res_den;
+21	    input(&num1, &num2, &den1, & den2);
++l
+22	    add(num1, num2, den1, den2, &res_den,&res_num);
+23	    output(num1, num2, den1, den2, res_den,res_num);
+24	    return 0;
+25	}+b 13
+Breakpoint 1 at 0x4014b8: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem01.c, line 13.
++b 14
+Breakpoint 2 at 0x4014cf: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem01.c, line 14.
++r
+Starting program: c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04/./problem01.exe 
+[New Thread 14288.0x6c2c]
+[New Thread 14288.0x641c]
+
+Breakpoint 1, add (num1=3, den1=4, num2=2, den2=3, res_num=0x61fef8, res_den=0x61fefc)
+    at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem01.c:13
+13	*res_num = (num1 * den2) + (num2 * den1);
++b 13
+Note: breakpoint 1 also set at pc 0x4014b8.
+Breakpoint 3 at 0x4014b8: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem01.c, line 13.
++r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
+Starting program: c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04/./problem01.exe 
+[New Thread 23376.0x6f1c]
+[New Thread 23376.0x70c8]
+
+Breakpoint 1, add (num1=1, den1=2, num2=2, den2=3, res_num=0x61fef8, res_den=0x61fefc)
+    at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem01.c:13
+13	*res_num = (num1 * den2) + (num2 * den1);
++next
+
+Breakpoint 2, add (num1=1, den1=2, num2=2, den2=3, res_num=0x61fef8, res_den=0x61fefc)
+    at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem01.c:14
+14	*res_den = (den1 * den2);
++next
+15	}
++finish
+Run till exit from #0  add (num1=1, den1=2, num2=2, den2=3, res_num=0x61fef8, res_den=0x61fefc)
+    at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem01.c:15
+main () at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem01.c:23
+23	    output(num1, num2, den1, den2, res_den,res_num);
++return
+Make main return now? (y or n) #0  0x00401288 in __register_frame_info ()
++print res_num
+No symbol "res_num" in current context.
++q
+A debugging session is active.
+
+	Inferior 1 [process 23376] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
