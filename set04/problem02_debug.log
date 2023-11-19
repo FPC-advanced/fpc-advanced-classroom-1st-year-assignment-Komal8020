@@ -1,0 +1,23 @@
++l
+21	        smallest = f3;
+22	    }
+23	    return smallest;
+24	}
+25	void output(Fraction f1, Fraction f2, Fraction f3,Fraction smallest) {
+26	    printf("The smallest of %d/%d, %d/%d and %d/%d is %d/%d",f1.num,f1.den, f2.num, f2.den, f3.num, f3.den, smallest.num, smallest.den);
+27	}
+28	int main() {
+29	    Fraction f1,f2,f3, smallest;
+30	    f1 = input();
++l
+31	    f2 = input();
+32	    f3 = input();
+33	    smallest = compare(f1,f2,f3);
+34	    output(f1,f2,f3,smallest);
+35	    return 0;
+36	}+b 16
+Breakpoint 1 at 0x4014b3: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem02.c, line 16.
++b 17
+Breakpoint 2 at 0x4014cb: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem02.c, line 17.
++b 18
+Breakpoint 3 at 0x4014d7: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem02.c, line 18.
