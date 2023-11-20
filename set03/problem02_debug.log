@@ -23,3 +23,12 @@ Breakpoint 2 at 0x4015ab: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-clas
 Breakpoint 3 at 0x4015ec: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem02.c, line 20.
 +b 22
 Breakpoint 4 at 0x401622: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem02.c, line 22.
++b main
+Breakpoint 5 at 0x40166d: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem02.c, line 35.
++r
+Starting program: c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03/./problem02.exe 
+[New Thread 20844.0x8d4]
+[New Thread 20844.0x3b5c]
+
+Breakpoint 5, main () at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem02.c:35
+35	float x1,x2,x3,y1,y2,y3;
