@@ -1,3 +1,26 @@
 +l
 No symbol table is loaded.  Use the "file" command.
 +q
++l
+No symbol table is loaded.  Use the "file" command.
++cd "c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01"
+"c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01": Invalid argument.
++gcc -g "c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem01.c" -o "c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem01.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem01.exe"
+Undefined command: "".  Try "help".
++cd "c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01"
+"c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01": Invalid argument.
++gdb ./problem01
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem01_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem01_debug.log.
++set trace-commands on
++l
+No symbol table is loaded.  Use the "file" command.
++q
