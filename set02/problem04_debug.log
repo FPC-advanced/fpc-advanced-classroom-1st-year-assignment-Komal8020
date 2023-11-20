@@ -27,3 +27,36 @@ Breakpoint 3 at 0x4014e3: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-clas
 Breakpoint 4 at 0x4014fc: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem04.c, line 17.
 +b 25
 Breakpoint 5 at 0x401526: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem04.c, line 25.
++b 26 
+Breakpoint 6 at 0x40152f: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem04.c, line 26.
++b 27
+Breakpoint 7 at 0x40154c: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem04.c, line 27.
++info b 
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x00401490 in input_array 
+                                           at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem04.c:10
+2       breakpoint     keep y   0x004014af in input_array 
+                                           at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem04.c:12
+3       breakpoint     keep y   0x004014e3 in is_composite 
+                                           at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem04.c:16
+4       breakpoint     keep y   0x004014fc in is_composite 
+                                           at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem04.c:17
+5       breakpoint     keep y   0x00401526 in sum_composite_numbers 
+                                           at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem04.c:25
+6       breakpoint     keep y   0x0040152f in sum_composite_numbers 
+                                           at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem04.c:26
+7       breakpoint     keep y   0x0040154c in sum_composite_numbers 
+                                           at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem04.c:27
++r 
+Starting program: c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02/./problem04.exe 
+[New Thread 8500.0x32fc]
+[New Thread 8500.0x2e50]
+
+Breakpoint 1, input_array (n=2, a=0x61fd88) at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem04.c:10
+10	  for(int i = 0; i <= n; i++){
++next 
+11	    printf("Enter the %d element of array:",i+1);
++next 
+
+Breakpoint 2, input_array (n=2, a=0x61fd88) at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem04.c:12
+12	    scanf("%d",&a[i]);
