@@ -68,3 +68,17 @@ Make input_array return now? (y or n) #0  main ()
 39	    is_composite(n);
 +finish
 "finish" not meaningful in the outermost frame.
++b main
+Breakpoint 8 at 0x4015a7: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem04.c, line 36.
++p bar
+No symbol "bar" in current context.
++print result
+No symbol "result" in current context.
++print sum
+$1 = 0
++return 
+Make main return now? (y or n) #0  0x00401288 in __register_frame_info ()
++finish
+Run till exit from #0  0x00401288 in __register_frame_info ()
+[Inferior 1 (process 8500) exited normally]
++q
