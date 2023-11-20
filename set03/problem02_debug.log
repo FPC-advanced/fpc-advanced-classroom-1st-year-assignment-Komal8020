@@ -1,0 +1,25 @@
++l
+warning: Source file is more recent than executable.
+26	}
+27	}
+28	void output(float x1, float y1, float x2, float y2,float x3, float y3, int result) {
+29	if (result == 1) {
+30	printf("The point A,B,C forms a triangle"); }
+31	else if (result == 0) {
+32	printf("The point A,B,C doesn't form a triangle"); }
+33	}
+34	int main() {
+35	float x1,x2,x3,y1,y2,y3;
++l
+36	input_triangle(&x1,&x2,&x3,&y1,&y2,&y3);
+37	int result = is_triangle(x1,x2,x3,y1,y2,y3);
+38	output(x1,y1,x2,y2,x3,y3,result);
+39	return 0;
+40	}+b 18
+Breakpoint 1 at 0x40156a: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem02.c, line 18.
++b 19
+Breakpoint 2 at 0x4015ab: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem02.c, line 19.
++b 20
+Breakpoint 3 at 0x4015ec: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem02.c, line 20.
++b 22
+Breakpoint 4 at 0x401622: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem02.c, line 22.
