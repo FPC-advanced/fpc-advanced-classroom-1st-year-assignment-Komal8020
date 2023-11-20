@@ -1,0 +1,29 @@
++l
+27	            sum += a[i];
+28	    }
+29	    return sum;
+30	}
+31	void output(int sum) {
+32	    printf("The sum of composite number is %d",sum);
+33	}
+34	int main() {
+35	    int n, sum;
+36	    n = input_array_size();
++l
+37	    int a[100];
+38	    input_array(n,a);
+39	    is_composite(n);
+40	    sum = sum_composite_numbers(n,a);
+41	    output(sum);
+42	    return 0;
+43	
+44	}+b 10
+Breakpoint 1 at 0x401490: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem04.c, line 10.
++b 12
+Breakpoint 2 at 0x4014af: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem04.c, line 12.
++b 16
+Breakpoint 3 at 0x4014e3: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem04.c, line 16.
++b 17
+Breakpoint 4 at 0x4014fc: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem04.c, line 17.
++b 25
+Breakpoint 5 at 0x401526: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem04.c, line 25.
