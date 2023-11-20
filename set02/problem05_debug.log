@@ -42,3 +42,11 @@ Starting program: c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-yea
 
 Breakpoint 5, main () at C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem05.c:22
 22	    a = input();
++print a
+$1 = 3297280
++print b
+$2 = 0
++print gcd
+$3 = 12595024
++print result
+No symbol "result" in current context.
