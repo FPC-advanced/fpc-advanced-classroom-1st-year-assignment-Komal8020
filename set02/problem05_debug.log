@@ -1,0 +1,25 @@
++l
+warning: Source file is more recent than executable.
+13	        }
+14	    }
+15	 return gcd;
+16	}
+17	void output(int a, int b, int gcd) {
+18	    printf("The gcd of %d and %d is %d\n", a, b, gcd);
+19	}
+20	int main() {
+21	    int a, b,gcd;
+22	    a = input();
++l
+23	    b = input();
+24	    gcd = find_gcd(a,b);     
+25	    output(a,b,gcd);
+26	    return 0;
+27	}+b 18 
+Breakpoint 1 at 0x4014d8: file C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem05.c, line 18.
++b 11
+Breakpoint 2 at 0x401499: file C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem05.c, line 11.
++b 12
+Breakpoint 3 at 0x4014b3: file C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem05.c, line 12.
++b 5
+Breakpoint 4 at 0x401472: file C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem05.c, line 5.
