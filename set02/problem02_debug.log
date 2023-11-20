@@ -1,0 +1,77 @@
++l
+warning: Source file is more recent than executable.
+23	        printf("This is a scalene triangle");
+24	    } 
+25	    else if (result < 0){
+26	        printf("This is not a scalene triangle");
+27	    }
+28	}
+29	
+30	int main() {
+31	    int a,b,c,result;
+32	    a = input_side();
++l
+33	    b = input_side();
+34	    c = input_side();
+35	    result = check_scalene(a,b,c);
+36	    output(a,b,c,result);
+37	    return 0;
+38	}+b 13
+Breakpoint 1 at 0x40148d: file C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem02.c, line 13.
++b 22
+Breakpoint 2 at 0x4014b9: file C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem02.c, line 22.
++b 14
+Breakpoint 3 at 0x4014a5: file C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem02.c, line 14.
++b 17
+Breakpoint 4 at 0x4014ac: file C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem02.c, line 17.
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x0040148d in check_scalene 
+                                           at C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem02.c:13
+2       breakpoint     keep y   0x004014b9 in output 
+                                           at C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem02.c:22
+3       breakpoint     keep y   0x004014a5 in check_scalene 
+                                           at C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem02.c:14
+4       breakpoint     keep y   0x004014ac in check_scalene 
+                                           at C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem02.c:17
++r
+Starting program: c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02/./problem02.exe 
+[New Thread 5664.0x1ef0]
+[New Thread 5664.0x252c]
+
+Breakpoint 1, check_scalene (a=2, b=4, c=9) at C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem02.c:13
+13	    if(a != b && b != c && a != c) {
++print result
+No symbol "result" in current context.
++next 
+
+Breakpoint 3, check_scalene (a=2, b=4, c=9) at C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem02.c:14
+14	        return 1;
++next
+19	}
++print result 
+No symbol "result" in current context.
++print result 
+No symbol "result" in current context.
++next
+main () at C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem02.c:36
+36	    output(a,b,c,result);
++next 
+
+Breakpoint 2, output (a=2, b=4, c=9, result=1) at C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem02.c:22
+22	    if(result > 0 ) {
++finish
+Run till exit from #0  output (a=2, b=4, c=9, result=1)
+    at C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem02.c:22
+main () at C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem02.c:37
+37	    return 0;
++r 
+The program being debugged has been started already.
+Start it from the beginning? (y or n) Program not restarted.
++next 
+38	}+q
+A debugging session is active.
+
+	Inferior 1 [process 5664] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5

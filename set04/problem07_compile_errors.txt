@@ -1,0 +1,12 @@
+Compilation started at 11/19/2023, 10:42:10 PM
+c:/users/komal/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/19/2023, 10:42:10 PM
+Compilation started at 11/19/2023, 10:42:47 PM
+c:/users/komal/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/19/2023, 10:42:47 PM
+Compilation started at 11/20/2023, 9:07:55 AM
+c:/users/komal/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/20/2023, 9:07:55 AM

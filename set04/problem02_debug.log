@@ -45,3 +45,68 @@ A debugging session is active.
 	Inferior 1 [process 22296] will be killed.
 
 Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
++l
+21	        smallest = f3;
+22	    }
+23	    return smallest;
+24	}
+25	void output(Fraction f1, Fraction f2, Fraction f3,Fraction smallest) {
+26	    printf("The smallest of %d/%d, %d/%d and %d/%d is %d/%d",f1.num,f1.den, f2.num, f2.den, f3.num, f3.den, smallest.num, smallest.den);
+27	}
+28	int main() {
+29	    Fraction f1,f2,f3, smallest;
+30	    f1 = input();
++l
+31	    f2 = input();
+32	    f3 = input();
+33	    smallest = compare(f1,f2,f3);
+34	    output(f1,f2,f3,smallest);
+35	    return 0;
+36	}+b 16
+Breakpoint 1 at 0x4014b6: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem02.c, line 16.
++b 17
+Breakpoint 2 at 0x4014ce: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem02.c, line 17.
++b 18
+Breakpoint 3 at 0x4014dc: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem02.c, line 18.
++b 19
+Breakpoint 4 at 0x4014f4: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem02.c, line 19.
++b 20
+Breakpoint 5 at 0x401502: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem02.c, line 20.
++r
+Starting program: c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04/./problem02.exe 
+[New Thread 24540.0x3014]
+[New Thread 24540.0x4fa4]
+
+Breakpoint 1, compare (f1=..., f2=..., f3=...) at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem02.c:16
+16	    if (f1.num/f1.den < f2.num/f2.den) {
++print smallest 
+$1 = {num = 1, den = 1195060230}
++next
+
+Breakpoint 2, compare (f1=..., f2=..., f3=...) at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem02.c:17
+17	        smallest = f1;
++next
+23	    return smallest;
++next 
+24	}
++return smallest 
+Make compare return now? (y or n) #0  0x004015e5 in main () at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem02.c:33
+33	    smallest = compare(f1,f2,f3);
++finish
+"finish" not meaningful in the outermost frame.
++print smallest 
+$2 = {num = 1984725613, den = 4201200}
++print f3
+$3 = {num = 4, den = 1}
++print f2
+$4 = {num = 1, den = 1}
++print f1
+$5 = {num = 1, den = 2}
++print smallest
+$6 = {num = 1984725613, den = 4201200}
++q
+A debugging session is active.
+
+	Inferior 1 [process 24540] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
