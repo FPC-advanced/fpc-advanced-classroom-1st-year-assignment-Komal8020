@@ -23,3 +23,22 @@ Breakpoint 2 at 0x401499: file C:\Users\komal\OneDrive\Desktop\fpc-advanced-clas
 Breakpoint 3 at 0x4014b3: file C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem05.c, line 12.
 +b 5
 Breakpoint 4 at 0x401472: file C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem05.c, line 5.
++info b 
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x004014d8 in output 
+                                           at C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem05.c:18
+2       breakpoint     keep y   0x00401499 in find_gcd 
+                                           at C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem05.c:11
+3       breakpoint     keep y   0x004014b3 in find_gcd 
+                                           at C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem05.c:12
+4       breakpoint     keep y   0x00401472 in input 
+                                           at C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem05.c:5
++b main
+Breakpoint 5 at 0x40150a: file C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem05.c, line 22.
++r
+Starting program: c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02/./problem05.exe 
+[New Thread 22876.0x3e08]
+[New Thread 22876.0x4168]
+
+Breakpoint 5, main () at C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem05.c:22
+22	    a = input();
