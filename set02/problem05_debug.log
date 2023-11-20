@@ -68,3 +68,9 @@ Make input return now? (y or n) #0  0x0040150f in main ()
 22	    a = input();
 +finish 
 "finish" not meaningful in the outermost frame.
++cd "c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03"
+"c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03": Invalid argument.
++gcc -g "c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem01.c" -o "c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem01.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem01.exe"
+Undefined command: "".  Try "help".
