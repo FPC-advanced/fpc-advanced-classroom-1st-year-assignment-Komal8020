@@ -50,3 +50,21 @@ $2 = 0
 $3 = 12595024
 +print result
 No symbol "result" in current context.
++print gcd
+$4 = 12595024
++n 
+
+Breakpoint 4, input () at C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem05.c:5
+5	    scanf("%d",&a);
++step
+6	    return a;
++print b
+No symbol "b" in current context.
++print gcd
+No symbol "gcd" in current context.
++return 
+Make input return now? (y or n) #0  0x0040150f in main ()
+    at C:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem05.c:22
+22	    a = input();
++finish 
+"finish" not meaningful in the outermost frame.
