@@ -18,8 +18,27 @@ void init_array(int n, int a[]) {
 }
 void eratosthenes_sieve(int n, int a[]) {
     for (int i = 2; i*i <= n; i++) {
-        if(n % i == 0) {
-
+        if(a[i]) {
+        for(int j = i*i; j<= n; j+=i){
+          a[j] =0;
         }
+      }
     }
 }   
+void output(int n, int a[]) {
+  printf("The prime numbers between 2 and %d are:",n);
+  for(int i = 2; i<=n; i++) {
+    if(a[i]) {
+      printf("%d",i);
+    }
+  }
+  printf("\n");
+}
+int Winmain() {
+  int n = input_array_size();
+  int a[10000];
+  init_array(n,a);
+  eratosthenes_sieve(n,a);
+  output(n,a);
+  return 0;
+}
