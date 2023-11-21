@@ -1,0 +1,39 @@
+Compilation started at 11/21/2023, 11:52:35 AM
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c: In function 'main':
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:25:18: warning: passing argument 1 of 'input_string' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_string(&a, &b);
+                  ^
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:6:6: note: expected 'char *' but argument is of type 'char **'
+ void input_string(char* a, char* b) {
+      ^~~~~~~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:25:22: warning: passing argument 2 of 'input_string' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_string(&a, &b);
+                      ^
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:6:6: note: expected 'char *' but argument is of type 'char **'
+ void input_string(char* a, char* b) {
+      ^~~~~~~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:26:19: warning: passing argument 1 of 'sub_str_index' from incompatible pointer type [-Wincompatible-pointer-types]
+     sub_str_index(&string,&substring);
+                   ^
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:12:5: note: expected 'char *' but argument is of type 'char **'
+ int sub_str_index(char* string, char* substring) {
+     ^~~~~~~~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:26:27: warning: passing argument 2 of 'sub_str_index' from incompatible pointer type [-Wincompatible-pointer-types]
+     sub_str_index(&string,&substring);
+                           ^
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:12:5: note: expected 'char *' but argument is of type 'char **'
+ int sub_str_index(char* string, char* substring) {
+     ^~~~~~~~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:27:12: warning: passing argument 1 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
+     output(&string, &substring, index);
+            ^
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:17:6: note: expected 'char *' but argument is of type 'char **'
+ void output(char *string, char *substring, int index) {
+      ^~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:27:21: warning: passing argument 2 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
+     output(&string, &substring, index);
+                     ^
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:17:6: note: expected 'char *' but argument is of type 'char **'
+ void output(char *string, char *substring, int index) {
+      ^~~~~~
+Compilation finished at 11/21/2023, 11:52:36 AM
