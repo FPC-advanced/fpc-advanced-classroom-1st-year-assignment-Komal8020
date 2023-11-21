@@ -205,3 +205,95 @@ c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal
  void output(char *string, char *substring, int index) {
       ^~~~~~
 Compilation finished at 11/21/2023, 12:02:31 PM
+Compilation started at 11/21/2023, 12:04:22 PM
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c: In function 'sub_str_index':
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:10:20: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   int len_string = strlen(string);
+                    ^~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:10:20: warning: incompatible implicit declaration of built-in function 'strlen'
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:10:20: note: include '<string.h>' or provide a declaration of 'strlen'
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c: In function 'main':
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:35:18: warning: passing argument 1 of 'input_string' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_string(&a, &b);
+                  ^
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:3:6: note: expected 'char *' but argument is of type 'char **'
+ void input_string(char *a, char *b) {
+      ^~~~~~~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:35:22: warning: passing argument 2 of 'input_string' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_string(&a, &b);
+                      ^
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:3:6: note: expected 'char *' but argument is of type 'char **'
+ void input_string(char *a, char *b) {
+      ^~~~~~~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:36:27: warning: passing argument 1 of 'sub_str_index' from incompatible pointer type [-Wincompatible-pointer-types]
+     index = sub_str_index(&string,&substring);
+                           ^
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:9:5: note: expected 'char *' but argument is of type 'char **'
+ int sub_str_index(char  *string, char *substring) {
+     ^~~~~~~~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:36:35: warning: passing argument 2 of 'sub_str_index' from incompatible pointer type [-Wincompatible-pointer-types]
+     index = sub_str_index(&string,&substring);
+                                   ^
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:9:5: note: expected 'char *' but argument is of type 'char **'
+ int sub_str_index(char  *string, char *substring) {
+     ^~~~~~~~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:37:12: warning: passing argument 1 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
+     output(&string, &substring, index);
+            ^
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:25:6: note: expected 'char *' but argument is of type 'char **'
+ void output(char *string, char *substring, int index) {
+      ^~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:37:21: warning: passing argument 2 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
+     output(&string, &substring, index);
+                     ^
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:25:6: note: expected 'char *' but argument is of type 'char **'
+ void output(char *string, char *substring, int index) {
+      ^~~~~~
+Compilation finished at 11/21/2023, 12:04:22 PM
+Compilation started at 11/21/2023, 12:07:08 PM
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c: In function 'sub_str_index':
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:10:20: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+   int len_string = strlen(string);
+                    ^~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:10:20: warning: incompatible implicit declaration of built-in function 'strlen'
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:10:20: note: include '<string.h>' or provide a declaration of 'strlen'
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c: In function 'main':
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:35:18: warning: passing argument 1 of 'input_string' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_string(&a, &b);
+                  ^
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:3:6: note: expected 'char *' but argument is of type 'char **'
+ void input_string(char *a, char *b) {
+      ^~~~~~~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:35:22: warning: passing argument 2 of 'input_string' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_string(&a, &b);
+                      ^
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:3:6: note: expected 'char *' but argument is of type 'char **'
+ void input_string(char *a, char *b) {
+      ^~~~~~~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:36:27: warning: passing argument 1 of 'sub_str_index' from incompatible pointer type [-Wincompatible-pointer-types]
+     index = sub_str_index(&string,&substring);
+                           ^
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:9:5: note: expected 'char *' but argument is of type 'char **'
+ int sub_str_index(char  *string, char *substring) {
+     ^~~~~~~~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:36:35: warning: passing argument 2 of 'sub_str_index' from incompatible pointer type [-Wincompatible-pointer-types]
+     index = sub_str_index(&string,&substring);
+                                   ^
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:9:5: note: expected 'char *' but argument is of type 'char **'
+ int sub_str_index(char  *string, char *substring) {
+     ^~~~~~~~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:37:12: warning: passing argument 1 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
+     output(&string, &substring, index);
+            ^
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:25:6: note: expected 'char *' but argument is of type 'char **'
+ void output(char *string, char *substring, int index) {
+      ^~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:37:21: warning: passing argument 2 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
+     output(&string, &substring, index);
+                     ^
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem06.c:25:6: note: expected 'char *' but argument is of type 'char **'
+ void output(char *string, char *substring, int index) {
+      ^~~~~~
+Compilation finished at 11/21/2023, 12:07:09 PM
+Compilation started at 11/21/2023, 12:07:22 PM
+Compilation finished at 11/21/2023, 12:07:22 PM
