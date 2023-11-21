@@ -33,7 +33,7 @@ int main() {
     char *a, *b, *string, *substring;
     int index;
     input_string(&a, &b);
-    sub_str_index(&string,&substring);
+    index = sub_str_index(&string,&substring);
     output(&string, &substring, index);
     return 0;
 }
