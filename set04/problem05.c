@@ -12,12 +12,29 @@ int input_size() {
     return n;
 }
 void input_array(int n, int a[]) {
-    printf("Enter the element of the array:");
+    
     for(int i =0; i<= n; i++) {
-        printf("Elements:%d",i+1);
+       printf("Enter the %d element of the array:",i+1);
         scanf("%d",&a[i]);
     }
 }
 int find_largest_index(int n, int a[]) {
-
+    int i,index;
+  for( i = 0; i <n; ++i) {
+    if (index < a[i])
+    index = a[i];
+  }
+  return index;
+}
+void output(int index) {
+    printf("The index of the largest number in an array:", index);
+} 
+int main() {
+    int n,index;
+    int a[1000];
+    n = input_size();
+    input_array(n,a);
+    index = find_largest_index(n,a);
+    output(index);
+    return 0;
 }

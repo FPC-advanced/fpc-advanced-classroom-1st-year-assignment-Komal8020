@@ -24,7 +24,7 @@ void output(float x, float root) {
     printf("The square root of %f is %f\n",x, root);
 
 }
-int main(void) {
+int main() {
     float number = input();
     float result = mysqrt(number);
     output(number ,result );

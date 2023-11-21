@@ -40,7 +40,8 @@ void output(int n, Complex c[], Complex result) {
 }
 int main() {
     int n = get_n();
-    Complex c[300],a,b;
+    Complex c[1000];
+    Complex a,b;
     input_n_complex(n,c);
     add(a,b);
     Complex result = add_n_complex(n,c);

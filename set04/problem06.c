@@ -9,5 +9,6 @@ void input_string(char *a) {
     scanf("%s", a);
 }
 int count_words(char *string) {
+ 
     
 }
