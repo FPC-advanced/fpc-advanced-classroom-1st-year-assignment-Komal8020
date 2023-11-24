@@ -19,8 +19,8 @@ void input_array(int n, int a[]) {
     }
 }
 int find_largest_index(int n, int a[]) {
-    int i,index;
-  for( i = 0; i <n; ++i) {
+    int index;
+  for( int i = 0; i <n; i++) {
     if (index < a[i])
     index = a[i];
   }
@@ -30,11 +30,10 @@ void output(int index) {
     printf("The index of the largest number in an array:", index);
 } 
 int main() {
-    int n,index;
-    int a[1000];
-    n = input_size();
-    input_array(n,a);
-    index = find_largest_index(n,a);
-    output(index);
+    int n = input_size();
+    int array[n];
+    input_array(n,array);
+    int largestindex= find_largest_index(n,array);
+    output(largestindex);
     return 0;
 }

@@ -6,11 +6,7 @@ void input_n_and_r(int *n, int *r) {
     scanf("%d",r);
 }
 int nCr(int n, int r) {
-    int factorial = 1;
-    for(int i = 2; i <= n; i++){
-        factorial = factorial * i;
-       }
-   return factorial;
+    
 }
 
 void output(int n, int r, int result) {
