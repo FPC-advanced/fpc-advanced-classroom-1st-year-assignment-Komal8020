@@ -1,0 +1,26 @@
+Compilation started at 11/26/2023, 10:50:07 PM
+c:/users/komal/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/26/2023, 10:50:08 PM
+Compilation started at 11/26/2023, 10:50:17 PM
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set05\problem03.c:24:6: error: conflicting types for 'find_weight'
+ void find_weight(Camel *c) {
+      ^~~~~~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set05\problem03.c:21:7: note: previous definition of 'find_weight' was here
+ float find_weight(Camel c) {
+       ^~~~~~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set05\problem03.c: In function 'find_weight':
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set05\problem03.c:25:34: warning: 'return' with a value, in function returning void
+     return PI * pow(c->radius,3) * sqrt(c->height * c->length);
+                                  ^
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set05\problem03.c:24:6: note: declared here
+ void find_weight(Camel *c) {
+      ^~~~~~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set05\problem03.c: In function 'main':
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set05\problem03.c:33:28: error: incompatible type for argument 1 of 'find_weight'
+     c.weight = find_weight(c);
+                            ^
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set05\problem03.c:24:6: note: expected 'Camel * {aka struct camel *}' but argument is of type 'Camel {aka struct camel}'
+ void find_weight(Camel *c) {
+      ^~~~~~~~~~~
+Compilation finished at 11/26/2023, 10:50:17 PM
