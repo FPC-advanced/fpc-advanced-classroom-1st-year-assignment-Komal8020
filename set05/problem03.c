@@ -21,9 +21,9 @@ Camel input(){
 float find_weight(Camel c) {
     return PI * pow(c.radius,3) * sqrt(c.height * c.length);
 }
-void find_weight(Camel *c) {
+/*void find_weight(Camel *c) {
     return PI * pow(c->radius,3) * sqrt(c->height * c->length);
-}
+}*/
 void output(Camel c) {
     printf("The weight %f of camel for given %f height,%f radius and %f length",c.weight,c.height,c.radius,c.length);
 }
