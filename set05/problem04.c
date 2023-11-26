@@ -17,23 +17,19 @@ void input_camel_details(float *radius, float *height, float *length){
 int find_mood(float radius, float height, float length){
     if(radius < height && radius < length) {
         return 1;
-    } else if (height < length && height < radius) {
+    }  if (height < length && height < radius) {
         return -1;
     } else if (length < height && length < radius) {
         return 2;
-    } else {
-        return 0;
     }
 }
 void output(float radius, float height, float length, int mood) {
     if(mood == 1){
         printf("The camel is sick");
-    } else if (mood == -1) {
+    } if (mood == -1) {
         printf("The Camel is happy");
     } else if (mood == 2) {
         printf("The Camel is tense");
-    } else {
-        printf("Not determine");
     }
 }
 int main() {
