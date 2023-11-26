@@ -1,11 +1,8 @@
 //Write a program to add two fractions
 #include<stdio.h>
+#include<Windows.h>
 typedef struct {
     int num, den;
-
-Fraction input_fraction();
-int find_gcd(int a, int b);
-Fraction add_fractions(Fraction f1, Fraction f2);
 } Fraction;
 void output(Fraction f1, Fraction f2, Fraction f3, Fraction sum);
 Fraction input_fraction() {
