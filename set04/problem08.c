@@ -21,7 +21,7 @@ Fraction input_fraction() {
 }
 void input_n_fractions(int n, Fraction f[]) {
    for(int i = 0; i <= n; i++) {
-    printf("Enter the fraction:%d", i+1);
+    printf("Enter the fraction:%d", i);
     f[i] = input_fraction();
    }
 }
