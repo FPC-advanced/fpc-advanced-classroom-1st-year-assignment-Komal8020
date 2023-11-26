@@ -1,5 +1,6 @@
 //Write a program to find the length of a line
 #include<stdio.h>
+#include<Windows.h>
 #include<math.h>
 typedef struct point {
     float x, y;
