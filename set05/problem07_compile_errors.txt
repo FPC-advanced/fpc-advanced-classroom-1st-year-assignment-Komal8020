@@ -11,3 +11,12 @@ c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal
          } else if ((ch >= 'a' && ch <= 'z' && !isspace(ch))) {
                                                 ^~~~~~~
 Compilation finished at 11/29/2023, 10:33:16 AM
+Compilation started at 11/29/2023, 10:34:08 AM
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set05\problem07.c: In function 'has_nice_name':
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set05\problem07.c:17:19: warning: implicit declaration of function 'tolower' [-Wimplicit-function-declaration]
+         char ch = tolower(c[i]);
+                   ^~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set05\problem07.c:20:48: warning: implicit declaration of function 'isspace' [-Wimplicit-function-declaration]
+         } else if ((ch >= 'a' && ch <= 'z' && !isspace(ch))) {
+                                                ^~~~~~~
+Compilation finished at 11/29/2023, 10:34:08 AM

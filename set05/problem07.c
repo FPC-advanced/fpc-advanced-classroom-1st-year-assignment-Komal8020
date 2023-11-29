@@ -5,6 +5,7 @@ int has_nice_name(char *c);
 void output(int res);
 */
 #include<stdio.h>
+#include<string.h>
 #include<Windows.h>
 void input(char *name) {
     printf("Enter the name:");
