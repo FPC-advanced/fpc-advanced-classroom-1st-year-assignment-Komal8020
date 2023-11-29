@@ -2,3 +2,12 @@ Compilation started at 11/28/2023, 12:26:04 PM
 c:/users/komal/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 11/28/2023, 12:26:04 PM
+Compilation started at 11/29/2023, 10:33:16 AM
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set05\problem07.c: In function 'has_nice_name':
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set05\problem07.c:16:19: warning: implicit declaration of function 'tolower' [-Wimplicit-function-declaration]
+         char ch = tolower(c[i]);
+                   ^~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set05\problem07.c:19:48: warning: implicit declaration of function 'isspace' [-Wimplicit-function-declaration]
+         } else if ((ch >= 'a' && ch <= 'z' && !isspace(ch))) {
+                                                ^~~~~~~
+Compilation finished at 11/29/2023, 10:33:16 AM
