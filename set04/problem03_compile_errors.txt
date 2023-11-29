@@ -1,0 +1,18 @@
+Compilation started at 11/29/2023, 10:23:30 AM
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem03.c: In function 'input_n_and_r':
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem03.c:3:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("Enter the value for n:");
+     ^~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem03.c:3:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem03.c:3:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem03.c:4:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%d", n);
+     ^~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem03.c:4:5: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem03.c:4:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem03.c: In function 'output':
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem03.c:13:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("The Combination of C(%d,%d) is %d", n,r, result);
+     ^~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem03.c:13:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 11/29/2023, 10:23:30 AM
