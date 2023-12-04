@@ -2,3 +2,42 @@ Compilation started at 12/4/2023, 5:45:47 PM
 c:/users/komal/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 12/4/2023, 5:45:48 PM
+Compilation started at 12/4/2023, 5:46:54 PM
+c:/users/komal/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/4/2023, 5:46:55 PM
+Compilation started at 12/4/2023, 5:47:05 PM
+c:/users/komal/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/4/2023, 5:47:05 PM
+Compilation started at 12/4/2023, 5:48:29 PM
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem04.c: In function 'main':
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem04.c:50:33: warning: passing argument 2 of 'input_coefficients' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_coefficients(100 + 1, input_coefficients);
+                                 ^~~~~~~~~~~~~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem04.c:17:6: note: expected 'float *' but argument is of type 'void (*)(int,  float *)'
+ void input_coefficients(int n, float a[]) {
+      ^~~~~~~~~~~~~~~~~~
+Compilation finished at 12/4/2023, 5:48:29 PM
+Compilation started at 12/4/2023, 9:08:53 PM
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem04.c: In function 'main':
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem04.c:50:33: warning: passing argument 2 of 'input_coefficients' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_coefficients(100 + 1, input_coefficients);
+                                 ^~~~~~~~~~~~~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem04.c:17:6: note: expected 'float *' but argument is of type 'void (*)(int,  float *)'
+ void input_coefficients(int n, float a[]) {
+      ^~~~~~~~~~~~~~~~~~
+Compilation finished at 12/4/2023, 9:08:53 PM
+Compilation started at 12/4/2023, 9:09:21 PM
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem04.c: In function 'main':
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem04.c:50:33: warning: passing argument 2 of 'input_coefficients' from incompatible pointer type [-Wincompatible-pointer-types]
+     input_coefficients(100 + 1, input_coefficients);
+                                 ^~~~~~~~~~~~~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set04\problem04.c:17:6: note: expected 'float *' but argument is of type 'void (*)(int,  float *)'
+ void input_coefficients(int n, float a[]) {
+      ^~~~~~~~~~~~~~~~~~
+Compilation finished at 12/4/2023, 9:09:22 PM
+Compilation started at 12/4/2023, 9:09:28 PM
+Compilation finished at 12/4/2023, 9:09:28 PM
+Compilation started at 12/4/2023, 9:10:16 PM
+Compilation finished at 12/4/2023, 9:10:16 PM
