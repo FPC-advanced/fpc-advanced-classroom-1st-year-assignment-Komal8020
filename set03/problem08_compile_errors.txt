@@ -1,0 +1,87 @@
+Compilation started at 12/4/2023, 10:13:42 PM
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem08.c: In function 'find_distance':
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem08.c:38:9: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  return sqrt(pow(b.x - a.x,2) + pow(b.y - a.y),2);
+         ^~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem08.c:38:9: warning: incompatible implicit declaration of built-in function 'sqrt'
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem08.c:38:9: note: include '<math.h>' or provide a declaration of 'sqrt'
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem08.c:38:14: warning: implicit declaration of function 'pow' [-Wimplicit-function-declaration]
+  return sqrt(pow(b.x - a.x,2) + pow(b.y - a.y),2);
+              ^~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem08.c:38:14: warning: incompatible implicit declaration of built-in function 'pow'
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem08.c:38:14: note: include '<math.h>' or provide a declaration of 'pow'
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem08.c:38:33: error: too few arguments to function 'pow'
+  return sqrt(pow(b.x - a.x,2) + pow(b.y - a.y),2);
+                                 ^~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem08.c:38:9: error: too many arguments to function 'sqrt'
+  return sqrt(pow(b.x - a.x,2) + pow(b.y - a.y),2);
+         ^~~~
+Compilation finished at 12/4/2023, 10:13:42 PM
+Compilation started at 12/4/2023, 10:13:59 PM
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem08.c: In function 'find_distance':
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem08.c:38:9: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  return sqrt(pow(b.x - a.x,2) + pow(b.y - a.y),2);
+         ^~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem08.c:38:9: warning: incompatible implicit declaration of built-in function 'sqrt'
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem08.c:38:9: note: include '<math.h>' or provide a declaration of 'sqrt'
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem08.c:38:14: warning: implicit declaration of function 'pow' [-Wimplicit-function-declaration]
+  return sqrt(pow(b.x - a.x,2) + pow(b.y - a.y),2);
+              ^~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem08.c:38:14: warning: incompatible implicit declaration of built-in function 'pow'
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem08.c:38:14: note: include '<math.h>' or provide a declaration of 'pow'
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem08.c:38:33: error: too few arguments to function 'pow'
+  return sqrt(pow(b.x - a.x,2) + pow(b.y - a.y),2);
+                                 ^~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem08.c:38:9: error: too many arguments to function 'sqrt'
+  return sqrt(pow(b.x - a.x,2) + pow(b.y - a.y),2);
+         ^~~~
+Compilation finished at 12/4/2023, 10:13:59 PM
+Compilation started at 12/4/2023, 10:14:06 PM
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem08.c: In function 'find_distance':
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem08.c:39:33: error: too few arguments to function 'pow'
+  return sqrt(pow(b.x - a.x,2) + pow(b.y - a.y),2);
+                                 ^~~
+In file included from c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem08.c:3:0:
+c:\users\komal\mingw\include\math.h:173:24: note: declared here
+ _CRTIMP double __cdecl pow (double, double);
+                        ^~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem08.c:39:9: error: too many arguments to function 'sqrt'
+  return sqrt(pow(b.x - a.x,2) + pow(b.y - a.y),2);
+         ^~~~
+In file included from c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem08.c:3:0:
+c:\users\komal\mingw\include\math.h:174:24: note: declared here
+ _CRTIMP double __cdecl sqrt (double);
+                        ^~~~
+Compilation finished at 12/4/2023, 10:14:06 PM
+Compilation started at 12/4/2023, 10:14:52 PM
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem08.c: In function 'find_distance':
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem08.c:39:33: error: too few arguments to function 'pow'
+  return sqrt(pow(b.x - a.x,2) + pow(b.y - a.y),2);
+                                 ^~~
+In file included from c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem08.c:3:0:
+c:\users\komal\mingw\include\math.h:173:24: note: declared here
+ _CRTIMP double __cdecl pow (double, double);
+                        ^~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem08.c:39:9: error: too many arguments to function 'sqrt'
+  return sqrt(pow(b.x - a.x,2) + pow(b.y - a.y),2);
+         ^~~~
+In file included from c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem08.c:3:0:
+c:\users\komal\mingw\include\math.h:174:24: note: declared here
+ _CRTIMP double __cdecl sqrt (double);
+                        ^~~~
+Compilation finished at 12/4/2023, 10:14:52 PM
+Compilation started at 12/4/2023, 10:15:40 PM
+Compilation finished at 12/4/2023, 10:15:40 PM
+Compilation started at 12/4/2023, 10:16:49 PM
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem08.c: In function 'main':
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set03\problem08.c:55:9: warning: implicit declaration of function 'calculate_perimeter' [-Wimplicit-function-declaration]
+         calculate_perimeter(&p);
+         ^~~~~~~~~~~~~~~~~~~
+C:\Users\komal\AppData\Local\Temp\ccyZioiS.o: In function `main':
+c:/Users/komal/OneDrive/Desktop/fpc-advanced-classroom-1st-year-assignment-Komal8020/set03/problem08.c:55: undefined reference to `calculate_perimeter'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/4/2023, 10:16:49 PM
+Compilation started at 12/4/2023, 10:17:10 PM
+Compilation finished at 12/4/2023, 10:17:11 PM
+Compilation started at 12/4/2023, 10:18:02 PM
+Compilation finished at 12/4/2023, 10:18:03 PM
