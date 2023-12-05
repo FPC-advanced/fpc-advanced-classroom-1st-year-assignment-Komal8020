@@ -18,7 +18,7 @@ void output(Polygon p);
 int input_n() {
     int  n;
     printf("Enter the number of sides of polygon:");
-    scanf("%d",n);
+    scanf("%d",&n);
     return n;
 }
 Point input_point(char *prompt_msg) {
