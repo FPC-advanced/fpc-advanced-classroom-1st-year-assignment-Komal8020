@@ -5,3 +5,5 @@ c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal
 c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem06.c:6:6: note: declared here
  void compare(int a,int b, int c, int *largest) {
       ^~~~~~~
+Compilation started at 12/5/2023, 11:15:00 AM
+Compilation finished at 12/5/2023, 11:15:00 AM
