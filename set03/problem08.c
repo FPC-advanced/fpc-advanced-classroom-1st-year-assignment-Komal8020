@@ -1,4 +1,4 @@
-// Write a program to find the perimeter of a polygon
+// Write a program to find the perimeter of a polygon.
 #include<stdio.h>
 #include<math.h>
 typedef struct point {
@@ -33,7 +33,6 @@ int input_polygon(Polygon *p) {
   for(i = 0; i < p->sides; i++) {
     p->p[i] = input_point("Enter vertex (x,y):");
   }
- 
 }
 float find_distance(Point a, Point b) {
  return sqrt(pow(b.x - a.x,2) + pow(b.y - a.y,2));

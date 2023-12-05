@@ -27,13 +27,12 @@ void eratosthenes_sieve(int n, int a[]) {
     }
 }   
 void output(int n, int a[]) {
-  printf("The prime numbers between 2 and %d are:",n);
+  printf("The prime numbers between 2 and %d are:\n",n);
   for(int i = 2; i<=n; i++) {
     if(a[i]) {
-      printf("%d",i);
+      printf("%d\n",i);
     }
   }
-  printf("\n");
 }
 int main() {
   int n = input_array_size();
