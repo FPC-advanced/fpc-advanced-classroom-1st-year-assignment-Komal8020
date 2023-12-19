@@ -18,7 +18,6 @@ int stringcompare(char *string1, char *string2) {
     return 0;
 }
 void output(char *string1, char *string2, int result) {
-    for(int i = 0;string1[i] != '\0' && string2[i] != '\0';i++) {
         if(result > 0) {
         printf("%s is greater",string1);}
         else if(result < 0) {
@@ -27,9 +26,8 @@ void output(char *string1, char *string2, int result) {
         printf("Both are equal");
     }
 }
-}
 int main() {
-    char *string1, *string2;
+    char string1[1000], string2[1000];
     int result;
     input_two_strings(string1,string2);
     result = stringcompare(string1, string2);

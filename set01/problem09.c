@@ -9,24 +9,24 @@ float input() {
 
 }
 
-float mysqrt(float x) {
-   float guess = x/2;
-   float next = (guess + x/guess)/2;
+float square_root(float n) {
+   float guess = n/2;
+   float next = (guess + n/guess)/2;
    while(fabs(next-guess)>0.000001)
   { 
     guess= next;
-    next=(guess+x/guess)/2 ;
+    next=(guess+n/guess)/2 ;
   }
   return next;
 
 }
-void output(float x, float root) {
-    printf("The square root of %f is %f\n",x, root);
+void output(float n, float root) {
+    printf("The square root of %f is %f\n",n, root);
 
 }
 int main() {
     float number = input();
-    float result = mysqrt(number);
+    float result = square_root(number);
     output(number ,result );
     return 0;
 }

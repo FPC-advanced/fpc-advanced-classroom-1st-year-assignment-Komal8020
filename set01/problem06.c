@@ -10,7 +10,6 @@ void compare(int a,int b, int c, int *largest) {
     } if (c > *largest) {
         *largest = c;
     }
-    
 }
 void output(int largest) {
     printf("The largest of three number is %d\n",largest);
@@ -18,7 +17,7 @@ void output(int largest) {
 int main() {
     int a,b,c,largest;
     input(&a,&b,&c);
-    (a,b,c,&largest);
+    compare(a,b,c,&largest);
     output(largest);
     return 0;
 }

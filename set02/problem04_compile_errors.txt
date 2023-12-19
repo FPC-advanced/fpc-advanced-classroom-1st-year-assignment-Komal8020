@@ -1,2 +1,10 @@
 Compilation started at 11/20/2023, 9:51:32 AM
 Compilation finished at 11/20/2023, 9:51:33 AM
+Compilation started at 12/18/2023, 4:38:19 PM
+c:/users/komal/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/18/2023, 4:38:20 PM
+Compilation started at 12/18/2023, 4:38:23 PM
+Compilation finished at 12/18/2023, 4:38:23 PM
+Compilation started at 12/18/2023, 4:39:10 PM
+Compilation finished at 12/18/2023, 4:39:10 PM

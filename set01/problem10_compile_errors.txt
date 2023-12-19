@@ -1,2 +1,57 @@
 c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem10.exe: Permission denied
 collect2.exe: error: ld returned 1 exit status
+Compilation started at 12/5/2023, 11:20:19 AM
+Compilation finished at 12/5/2023, 11:20:20 AM
+Compilation started at 12/5/2023, 11:21:24 AM
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem10.c: In function 'main':
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem10.c:34:23: warning: passing argument 1 of 'input_two_strings' makes pointer from integer without a cast [-Wint-conversion]
+     input_two_strings(string1,string2);
+                       ^~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem10.c:7:6: note: expected 'char *' but argument is of type 'char'
+ void input_two_strings(char *string1, char *string2) {
+      ^~~~~~~~~~~~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem10.c:34:31: warning: passing argument 2 of 'input_two_strings' makes pointer from integer without a cast [-Wint-conversion]
+     input_two_strings(string1,string2);
+                               ^~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem10.c:7:6: note: expected 'char *' but argument is of type 'char'
+ void input_two_strings(char *string1, char *string2) {
+      ^~~~~~~~~~~~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem10.c:35:28: warning: passing argument 1 of 'stringcompare' makes pointer from integer without a cast [-Wint-conversion]
+     result = stringcompare(string1, string2);
+                            ^~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem10.c:11:5: note: expected 'char *' but argument is of type 'char'
+ int stringcompare(char *string1, char *string2) {
+     ^~~~~~~~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem10.c:35:37: warning: passing argument 2 of 'stringcompare' makes pointer from integer without a cast [-Wint-conversion]
+     result = stringcompare(string1, string2);
+                                     ^~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem10.c:11:5: note: expected 'char *' but argument is of type 'char'
+ int stringcompare(char *string1, char *string2) {
+     ^~~~~~~~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem10.c:36:12: warning: passing argument 1 of 'output' makes pointer from integer without a cast [-Wint-conversion]
+     output(string1, string2,result);
+            ^~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem10.c:20:6: note: expected 'char *' but argument is of type 'char'
+ void output(char *string1, char *string2, int result) {
+      ^~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem10.c:36:21: warning: passing argument 2 of 'output' makes pointer from integer without a cast [-Wint-conversion]
+     output(string1, string2,result);
+                     ^~~~~~~
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem10.c:20:6: note: expected 'char *' but argument is of type 'char'
+ void output(char *string1, char *string2, int result) {
+      ^~~~~~
+c:/users/komal/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem10.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/5/2023, 11:21:24 AM
+Compilation started at 12/18/2023, 3:50:49 PM
+Compilation finished at 12/18/2023, 3:50:50 PM
+Compilation started at 12/18/2023, 3:51:16 PM
+Compilation finished at 12/18/2023, 3:51:17 PM
+Compilation started at 12/18/2023, 3:52:44 PM
+c:/users/komal/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set01\problem10.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/18/2023, 3:52:45 PM
+Compilation started at 12/18/2023, 3:52:49 PM
+Compilation finished at 12/18/2023, 3:52:50 PM
+Compilation started at 12/18/2023, 3:53:19 PM
+Compilation finished at 12/18/2023, 3:53:20 PM

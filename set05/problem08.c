@@ -13,6 +13,8 @@ void find_camel_weight(int n, Camel c[n]);
 float compute_total_weight(int n, Camel c[n], float truck_weight);
 void output(float total_weight);*/
 #include<stdio.h>
+#include<math.h>
+#define PI 3.14159
 typedef struct _camel {
     float radius,height,length,weight;
 } Camel;
@@ -28,12 +30,12 @@ void input(int n, Camel c[], float *truck_weight) {
         scanf("%f",&c[i].length);
     }
     printf("Enter the weight of the truck:");
-    scanf("%d",truck_weight);
+    scanf("%f",truck_weight);
 }
 void find_camel_weight(int n, Camel c[]) {
     int i = 0;
     for(i = 0; i<n;i++) {
-    c[i].weight = c[i].height * c[i].weight * c[i].length;
+        return PI * pow(c[i].radius,3) * sqrt(c[i].height * c[i].length);
     }
 }
 float compute_total_weight(int n, Camel c[], float truck_weight) {

@@ -42,11 +42,11 @@ void output(int n, float a[], float x, float result) {
     printf("Evaluated at x = %f is %f\n",x,result);
 }
 int main() {
-    int degree = input_degree();
-    float coefficients[degree + 1];
-    input_coefficients(degree + 1, coefficients);
+    int n = input_degree();
+    float coefficients[n + 1];
+    input_coefficients(n + 1, coefficients);
     float x = input_x();
-    float result = evaluate_polynomial(degree + 1, coefficients,x);
-    output(100 + 1, coefficients,x,result);
+    float result = evaluate_polynomial(n + 1, coefficients,x);
+    output(n + 1, coefficients,x,result);
     return 0;
 }

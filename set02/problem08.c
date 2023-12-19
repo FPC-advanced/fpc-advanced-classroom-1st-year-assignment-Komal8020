@@ -22,7 +22,7 @@ Triangle input_triangle() {
 }
 void input_n_triangles(int n, Triangle t[]) {
     for(int i = 0; i < n; i++) {
-        printf("Enter %d no. of triangle:\n", i);
+        printf("Enter %d no. of triangle:\n", i+1);
         t[i] = input_triangle();
     }
 
@@ -32,12 +32,14 @@ void find_area(Triangle *t) {
 }
 void find_n_areas(int n, Triangle t[]) {
      for(int i = 0; i < n; i++) {
-     printf("The Area of %d triangle is %f\n",i, &t[i].area);
+        find_area(&t[i]);
+     printf("The Area of %d triangle is %f\n",i+1, t[i].area);
   }
 }
 Triangle find_smallest_triangle(int n, Triangle t[]) {
     Triangle smallest = t[0];
 for(int i = 1; i< n; i++) {
+    find_area(&t[i]);
     if(t[i].area < smallest.area) {
         smallest = t[i];
     }
@@ -45,7 +47,7 @@ for(int i = 1; i< n; i++) {
 return smallest;
 }
 void output(int n, Triangle t[], Triangle smallest) {
-   printf("Smallest Triangle area: %f",smallest.area);
+   printf("The smallest triangle out of triangles with base and height ",smallest.area);
 }
 int main() {
     int n;

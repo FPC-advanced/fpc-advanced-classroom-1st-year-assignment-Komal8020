@@ -35,7 +35,7 @@ Complex add_n_complex(int n, Complex c[]) {
     }
     return sum;
 }
-void output(int n, Complex c[], Complex result) {
+void output(int n, Complex result) {
     printf("The sum of %d of complex number is %f + %fi\n",n,result.real, result.imaginary);
 }
 int main() {
@@ -45,7 +45,7 @@ int main() {
     input_n_complex(n,c);
     add(a,b);
     Complex result = add_n_complex(n,c);
-    output(n,c,result);
+    output(n,result);
     
     return 0;
 }

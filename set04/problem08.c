@@ -20,8 +20,8 @@ Fraction input_fraction() {
     return f;
 }
 void input_n_fractions(int n, Fraction f[]) {
-   for(int i = 0; i <= n; i++) {
-    printf("Enter the fraction:%d", i);
+   for(int i = 0; i < n; i++) {
+    printf("Enter the fraction:%d", i+1);
     f[i] = input_fraction();
    }
 }
@@ -38,17 +38,18 @@ Fraction add_fractions(Fraction f1, Fraction f2) {
     int gcd = find_gcd(result.num, result.den);
     result.num /=gcd;
     result.den /= gcd;
+    return result;
 }
 Fraction add_n_fractions(int n, Fraction f[]) {
-    Fraction sum;
-    for (int i =0; i<=n; i++) {
+    Fraction sum = {0,1};
+    for (int i =0; i<n; i++) {
         sum = add_fractions(sum,f[i]);
     }
      return sum;
 }
 void output(int n, Fraction f[], Fraction sum) {
-    for(int i =0; i<=n ; i++) {
-        printf("%d/%d", f[i].num, f[i].den);
+    for(int i =0; i<n ; i++) {
+        printf("%d/%d\n", f[i].num, f[i].den);
     }
     printf("Sum of Fractions is:%d/%d\n",sum.num, sum.den);
 }
