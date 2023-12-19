@@ -19,10 +19,9 @@ int is_factorial(int n, int a[]) {
   }
 }
 int get_factorial(int n, int a[], int f[]) {
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i <= n; i++) {
         f[i] = is_factorial(n,a);
     }
-    return f;
 }
 void output(int n, int f[]) {
  printf("The factorial number in an array of number is %d",f);
