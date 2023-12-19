@@ -12,18 +12,17 @@ int get_array_values(int n, int a[]) {
     }
 }
 int is_factorial(int n, int a[]) {
-    int factorial;
   if (n == 1 && n % 2 == 0) {
     return 1;
   } else {
     return 0;
   }
-  return is_factorial(n,n%2);
 }
 int get_factorial(int n, int a[], int f[]) {
     for (int i = 0; i < n; i++) {
         f[i] = is_factorial(n,a);
     }
+    return f;
 }
 void output(int n, int f[]) {
  printf("The factorial number in an array of number is %d",f);
