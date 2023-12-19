@@ -13,10 +13,12 @@ int get_array_values(int n, int a[]) {
 }
 int is_factorial(int n, int a[]) {
     int factorial;
-  for (int i = 1; i < n; i++) {
-    n == 1 && n % 2== 0;
+  if (n == 1 && n % 2 == 0) {
+    return 1;
+  } else {
+    return 0;
   }
-  return is_factorial(n,a);
+  return is_factorial(n,n%2);
 }
 int get_factorial(int n, int a[], int f[]) {
     for (int i = 0; i < n; i++) {
