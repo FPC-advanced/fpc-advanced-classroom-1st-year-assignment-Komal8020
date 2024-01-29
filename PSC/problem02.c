@@ -6,25 +6,31 @@ int input_array_size() {
     return n;
 }
 int get_array_values(int n, int a[]) {
-    printf("Enter the %d number of the array.\n",n);
+    printf("Enter the %d number in the array.\n",n);
     for (int i = 1; i <= n; i++) {
         scanf("%d",&a[i]);
     }
 }
 int is_factorial(int n, int a[]) {
-  if (n == 1 && n % 2 == 0) {
+    for (int i = 0; i<= n; i++) {
+if (n == 1) {
     return 1;
-  } else {
-    return 0;
-  }
+} if (n % 2 == 0) {
+    return 1;
+} else return 0;
+} 
 }
 int get_factorial(int n, int a[], int f[]) {
-   for (int i = 2; i <= n; i++) {
-    f[i] = is_factorial(n,a);
-   }
-}
-void output(int n, int f[]) {
- printf("The factorial number in an array of number is %d",f);
+    int fact;
+    for (int i = 1; i <= n; i++) {
+       fact =  is_factorial(fact, f[i]);
+    }
+    return fact;
+}   
+
+void output(int n, int fact, int f[]) {
+ printf("The factorial number in an array of number is:%d",fact);
+
 }
 int main() {
     int n = input_array_size();
@@ -32,7 +38,7 @@ int main() {
     get_array_values(n,a);
     is_factorial(n,a);
     int f[1000];
-    get_factorial(n,a,f);
-    output(n,f);
+    int fact =  get_factorial(n,a,f);
+    output(n,fact,f);
     return 0;
 }

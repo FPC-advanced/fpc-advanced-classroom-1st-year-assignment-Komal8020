@@ -1,2 +1,31 @@
 Compilation started at 12/19/2023, 2:04:02 PM
 Compilation finished at 12/19/2023, 2:04:03 PM
+Compilation started at 12/19/2023, 3:23:21 PM
+Compilation finished at 12/19/2023, 3:23:22 PM
+Compilation started at 12/19/2023, 3:32:57 PM
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC\problem02.c: In function 'get_factorial':
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC\problem02.c:27:35: warning: passing argument 2 of 'is_factorial' makes pointer from integer without a cast [-Wint-conversion]
+        fact =  is_factorial(fact, f[i]);
+                                   ^
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC\problem02.c:14:5: note: expected 'int *' but argument is of type 'int'
+ int is_factorial(int n, int a[]) {
+     ^~~~~~~~~~~~
+Compilation finished at 12/19/2023, 3:32:57 PM
+Compilation started at 12/19/2023, 3:42:01 PM
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC\problem02.c: In function 'get_factorial':
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC\problem02.c:26:35: warning: passing argument 2 of 'is_factorial' makes pointer from integer without a cast [-Wint-conversion]
+        fact =  is_factorial(fact, f[i]);
+                                   ^
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC\problem02.c:14:5: note: expected 'int *' but argument is of type 'int'
+ int is_factorial(int n, int a[]) {
+     ^~~~~~~~~~~~
+Compilation finished at 12/19/2023, 3:42:01 PM
+Compilation started at 12/19/2023, 4:25:34 PM
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC\problem02.c: In function 'get_factorial':
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC\problem02.c:26:35: warning: passing argument 2 of 'is_factorial' makes pointer from integer without a cast [-Wint-conversion]
+        fact =  is_factorial(fact, f[i]);
+                                   ^
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC\problem02.c:14:5: note: expected 'int *' but argument is of type 'int'
+ int is_factorial(int n, int a[]) {
+     ^~~~~~~~~~~~
+Compilation finished at 12/19/2023, 4:25:35 PM

@@ -7,11 +7,14 @@ int input_number() {
     return n;
 }
 int is_factorial(int n) {
-    int fact = 1;
-for (int i = 2; i <= n; i++) {
-    fact *= i;
-}
-return fact;
+ int fact = 1;
+  for (int i = 2; i <= n; i++) {
+     if (fact *= i) {
+        return fact;
+     } if (n % 2 != 0) {
+        return 0;
+     }
+  }
 }
 void output(int n, int fact) {
     if (fact) {
