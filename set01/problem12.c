@@ -10,7 +10,6 @@ int get_n() {
     scanf("%d",&n);
     return n;
 }
-
 void input_n_complex(int n,Complex c[]) {
     printf("Enter %d values for the array:\n", n);
     for (int i = 0; i < n; i++) {
@@ -46,7 +45,6 @@ int main() {
     add(a,b);
     Complex result = add_n_complex(n,c);
     output(n,result);
-    
     return 0;
 }
 
