@@ -2,32 +2,37 @@
 typedef struct fritacole {
 char name[100];
 float height;
-int integrity, ability,discipline,interest;
 } Fritacole;
-
-typedef struct Game {
-char teamname[100];
-int team;
-} game;
-
+typedef struct foul {
+    char name [100];
+    int ability;
+}fouls;
+typedef struct  point 
+{
+    char name[100];
+    float height;
+}points;
 typedef struct Team {
-char playername[100]
-int players;
+char playername[100];
+int numplayers;
+Fritacole players[100];
+fouls foul[100];
+points point[100];
+int num_fouls;
+int num_points;
 } team;
 
-typedef struct point {
-int ability;
-int height;
-int interest;
-} Point;
-typedef struct Foul{
-int discipline;
-int integrity;
-}foul;
- 
-Fritacole input() {
-    Fritacole team;
-    printf("Enter the no. of teams:");
-    scanf("%d",&team);
-    return team;
+typedef struct Game {
+    team teams[2];
+}game;
+
+void frita_name(Fritacole *a) {
+    printf("Enter the name of the fritacole:");
+    scanf("%s",a->name);
+    printf("Enter the height:");
+    scanf("%f",a->height);
 }
+
+
+
+

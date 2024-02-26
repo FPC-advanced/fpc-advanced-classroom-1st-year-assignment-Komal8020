@@ -11,34 +11,33 @@ int get_array_values(int n, int a[]) {
         scanf("%d",&a[i]);
     }
 }
-int is_factorial(int n, int a[]) {
-    for (int i = 0; i<= n; i++) {
-if (n == 1) {
-    return 1;
-} if (n % 2 == 0) {
-    return 1;
-} else return 0;
-} 
+int is_factorial(int n) {
+    int fact = 1;
+    int i=1;
+  while (fact < n) {
+      i++;
+      fact *= i;
+    }   
+  return fact;
 }
-int get_factorial(int n, int a[], int f[]) {
-    int fact;
-    for (int i = 1; i <= n; i++) {
-       fact =  is_factorial(fact, f[i]);
-    }
-    return fact;
+void get_factorial(int n, int a[], int f[]) {
+      for(int i = 2; i < n; i++) {
+        f[i] = is_factorial(a[i]);
+      }  
 }   
 
-void output(int n, int fact, int f[]) {
- printf("The factorial number in an array of number is:%d",fact);
-
+void output(int n, int f[]) {
+   printf("Factorials present in array:\n");
+   for (int i = 2; i < n; i++) {
+    printf("%d\n",f[i]);
+   }
 }
 int main() {
     int n = input_array_size();
     int a[1000];
     get_array_values(n,a);
-    is_factorial(n,a);
     int f[1000];
-    int fact =  get_factorial(n,a,f);
-    output(n,fact,f);
+    get_factorial(n,a,f);
+    output(n,f);
     return 0;
 }

@@ -29,3 +29,7 @@ c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal
  int is_factorial(int n, int a[]) {
      ^~~~~~~~~~~~
 Compilation finished at 12/19/2023, 4:25:35 PM
+Compilation started at 2/25/2024, 11:00:27 PM
+Compilation finished at 2/25/2024, 11:00:27 PM
+Compilation started at 2/26/2024, 3:18:12 PM
+Compilation finished at 2/26/2024, 3:18:12 PM

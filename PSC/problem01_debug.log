@@ -1,0 +1,295 @@
++r
+Starting program: c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC/./problem01.exe 
+[New Thread 15672.0xd88]
+[New Thread 15672.0x27dc]
+[Inferior 1 (process 15672) exited normally]
++b main
+Breakpoint 1 at 0x4014f5
++b info
+Function "info" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) Breakpoint 2 (info) pending.
++n
+The program is not being run.
++r
+Starting program: c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC/./problem01.exe 
+[New Thread 18984.0x4808]
+[New Thread 18984.0x27c8]
+
+Breakpoint 1, 0x004014f5 in main ()
++b main
+Note: breakpoint 1 also set at pc 0x4014f5.
+Breakpoint 3 at 0x4014f5
++r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) Program not restarted.
++n
+Single stepping until exit from function main,
+which has no line number information.
+0x00401288 in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++q
+A debugging session is active.
+
+	Inferior 1 [process 18984] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
++cd "c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC"
+"c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC": Invalid argument.
++gcc -g "c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC\problem01.c" -o "c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC\problem01.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC\problem01.exe"
+Undefined command: "".  Try "help".
++q
++b main
+Breakpoint 1 at 0x401511: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC\problem01.c, line 36.
++r
+Starting program: c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC/./problem01.exe 
+[New Thread 21648.0x4120]
+[New Thread 21648.0x5b10]
+
+Breakpoint 1, main () at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC\problem01.c:36
+36	    n = input_number();
++n
+37	    result = is_factorial(n);
++p n
+$1 = 120
++n
+38	    output(n,result);
++s
+output (n=120, result=0) at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC\problem01.c:28
+28	 if (result == 1) {
++n
+31	    printf("%d is not a factorial.\n",n);
++s
+33	}
++p n
+$2 = 120
++n
+main () at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC\problem01.c:39
+39	    return 0;
++p i
+No symbol "i" in current context.
++n
+40	}+n
+0x00401288 in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128f in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x00401292 in __register_frame_info ()
++q
+A debugging session is active.
+
+	Inferior 1 [process 21648] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
++b main
+Note: breakpoint 1 also set at pc 0x401511.
+Breakpoint 2 at 0x401511: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC\problem01.c, line 36.
++r
+Starting program: c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC/./problem01.exe 
+[New Thread 25556.0x5250]
+[New Thread 25556.0x8fc]
+
+Breakpoint 1, main () at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC\problem01.c:36
+36	    n = input_number();
++p n
+$2 = 3223552
++n
+37	    result = is_factorial(n);
++p n
+$3 = 6
++n
+38	    output(n,result);
++return
+Make main return now? (y or n) #0  0x00401288 in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++q
+A debugging session is active.
+
+	Inferior 1 [process 25556] will be killed.
+
+Quit anyway? (y or n) Please answer y or n.
+A debugging session is active.
+
+	Inferior 1 [process 25556] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
+
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC>gdb ./problem01.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC\problem01.exe...done.
+(gdb) b main   
+Breakpoint 1 at 0x401511: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC\problem01.c, line 36.
+(gdb) r
+Starting program: c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC/./problem01.exe
+[New Thread 14608.0x4260]
+[New Thread 14608.0x61d8]
+
+Breakpoint 1, main () at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC\problem01.c:36
+36          n = input_number();
+(gdb) n
+Enter the number:6
+37          result = is_factorial(n);
+(gdb) s
+is_factorial (n=6) at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC\problem01.c:15
+15          int fact = 1;
+(gdb) s
+16          int i=1;
+(gdb) n
+17          while (i < n) {
+(gdb) p i
+$1 = 1
+(gdb) n
+18            i++;
+(gdb) p i
+$2 = 1
+(gdb) n
+19            fact *= i;
+(gdb) p fact
+$3 = 1
+(gdb) n
+17          while (i < n) {
+(gdb) n
+18            i++;
+(gdb) p i
+$4 = 2
+(gdb)
+$5 = 2
+(gdb)
+$6 = 2
+(gdb) n
+19            fact *= i;
+(gdb) p fact
+$7 = 2
+(gdb) n
+17          while (i < n) {
+(gdb) n
+18            i++;
+(gdb) p i
+$8 = 3
+(gdb) n
+19            fact *= i;
+(gdb) p fact
+$9 = 6
+(gdb) n
+17          while (i < n) {
+(gdb) n
+18            i++;
+(gdb) p i
+$10 = 4
+(gdb) n
+19            fact *= i;
+(gdb) p fact
+$11 = 24
+(gdb) n 
+17          while (i < n) {
+(gdb) n 
+18            i++;
+(gdb) p i
+$12 = 5
+(gdb) n
+19            fact *= i;
+(gdb) p fact
+$13 = 120
+(gdb) n
+17          while (i < n) {
+(gdb) n 
+21          if (fact == n) {
+(gdb) p fact
+$14 = 720
+(gdb) n
+24              return 0;
+(gdb) n  
+26      }
+(gdb) n
+main () at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC\problem01.c:38
+38          output(n,result);
+(gdb) s
+output (n=6, result=0) at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC\problem01.c:28
+28       if (result == 1) {
+(gdb) p resukr
+No symbol "resukr" in current context.
+(gdb) p result
+$15 = 0
+(gdb) n
+31          printf("%d is not a factorial.\n",n);
+(gdb) p
+$16 = 0
+(gdb) n 
+6 is not a factorial.
+33      }
+(gdb) n
+main () at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC\problem01.c:39
+39          return 0;
+(gdb) q
+A debugging session is active.
+
+        Inferior 1 [process 14608] will be killed.
+
+Quit anyway? (y or n) y
+error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5+b main
+Breakpoint 1 at 0x40150f
++r
+Starting program: c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC/./problem01.exe 
+[New Thread 3228.0x6898]
+[New Thread 3228.0xd64]
+
+Breakpoint 1, 0x0040150f in main ()
++n
+Single stepping until exit from function main,
+which has no line number information.
+0x00401288 in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128f in __register_frame_info ()
++q
+A debugging session is active.
+
+	Inferior 1 [process 3228] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
++b main
+Breakpoint 1 at 0x40150f
++r
+Starting program: c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC/./problem01.exe 
+[New Thread 45652.0x68c0]
+[New Thread 45652.0x8054]
+
+Breakpoint 1, 0x0040150f in main ()
++n
+Single stepping until exit from function main,
+which has no line number information.
+0x00401288 in __register_frame_info ()
++q
+A debugging session is active.
+
+	Inferior 1 [process 45652] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5

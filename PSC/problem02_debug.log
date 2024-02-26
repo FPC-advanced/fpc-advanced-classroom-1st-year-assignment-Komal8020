@@ -1,0 +1,63 @@
++b main
+Breakpoint 1 at 0x4015a7
++r
+Starting program: c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC/./problem02.exe 
+[New Thread 2832.0x1608]
+[New Thread 2832.0x98ec]
+
+Breakpoint 1, 0x004015a7 in main ()
++n
+Single stepping until exit from function main,
+which has no line number information.
+0x00401288 in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128f in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x00401292 in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+[Inferior 1 (process 2832) exited normally]
++n
+The program is not being run.
++s
+The program is not being run.
++r
+Starting program: c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC/./problem02.exe 
+[New Thread 33340.0x38d4]
+[New Thread 33340.0x862c]
+
+Breakpoint 1, 0x004015a7 in main ()
++b main
+Note: breakpoint 1 also set at pc 0x4015a7.
+Breakpoint 2 at 0x4015a7
++n
+Single stepping until exit from function main,
+which has no line number information.
+0x00401288 in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128f in __register_frame_info ()
++s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x00401292 in __register_frame_info ()
++q
+A debugging session is active.
+
+	Inferior 1 [process 33340] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
