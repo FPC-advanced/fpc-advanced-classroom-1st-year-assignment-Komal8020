@@ -1,3 +1,46 @@
 +l
 1	../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S: No such file or directory.
 +q
++r
+Starting program: c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02/./problem03.exe 
+[New Thread 15148.0x1fe8]
+[New Thread 15148.0x9a4]
+[Inferior 1 (process 15148) exited normally]
++print n
+No symbol "n" in current context.
++n
+The program is not being run.
++r
+Starting program: c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02/./problem03.exe 
+[New Thread 17936.0x482c]
+[New Thread 17936.0x3950]
+[Inferior 1 (process 17936) exited normally]
++b main
+Breakpoint 1 at 0x401517: file c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem03.c, line 32.
++r
+Starting program: c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02/./problem03.exe 
+[New Thread 17832.0x47b0]
+[New Thread 17832.0x2a3c]
+
+Breakpoint 1, main () at c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\set02\problem03.c:32
+32	    num = input_number();
++n
+33	    result = is_composite(num);
++n
+34	    output(num, result);
++n
+35	    return 0;
++n
+36	0;
++s
+0x00401288 in __register_frame_info ()
++n
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
++q
+A debugging session is active.
+
+	Inferior 1 [process 17832] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5

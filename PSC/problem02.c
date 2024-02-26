@@ -21,9 +21,9 @@ int is_factorial(int n) {
   return fact;
 }
 void get_factorial(int n, int a[], int f[]) {
-      for(int i = 2; i < n; i++) {
-        f[i] = is_factorial(a[i]);
-      }  
+    for(int i = 2; i < n; i++) {
+      f[i] == is_factorial(a[i]);
+    }  
 }   
 
 void output(int n, int f[]) {

@@ -1,3 +1,4 @@
+/*Composite Number:- A number which has factor other than 1 and itself*/
 #include<stdio.h>
 int input_number();
 int is_composite(int n);
@@ -22,9 +23,9 @@ int is_composite(int n) {
 }
 void output(int n,  int result) {
     if (is_composite(n)) {
-        printf("%d is a composite number", n);
+        printf("%d is a composite number\n", n);
     } else {
-        printf("%d is not a composite number",n);
+        printf("%d is not a composite number\n",n);
     }
 }
 int main() {
