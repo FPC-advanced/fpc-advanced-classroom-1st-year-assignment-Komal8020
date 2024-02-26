@@ -1,0 +1,7 @@
+Compilation started at 2/27/2024, 12:47:19 AM
+c:\Users\komal\OneDrive\Desktop\fpc-advanced-classroom-1st-year-assignment-Komal8020\PSC\problem03.c:45:1: warning: no semicolon at end of struct or union
+ }game;
+ ^
+c:/users/komal/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 2/27/2024, 12:47:19 AM
