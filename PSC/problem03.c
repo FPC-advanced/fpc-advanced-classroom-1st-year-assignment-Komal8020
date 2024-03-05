@@ -14,6 +14,7 @@ b, Write a function to convert a fritacole into a string.
 c. Write a function to convert a string into a fritacole.
 */
 #include<stdio.h>
+#include<string.h>
 typedef struct _fritacole {
     int id;
     char name[100];
@@ -42,7 +43,7 @@ typedef struct Game {
     point p[100];
     int num_fouls;
     foul f[100]
-}game;
+} game;
 
 
 fritacole input_fritacole()
@@ -81,6 +82,7 @@ team input_team()
     scanf("%s",&t.teamname);
     printf("Enter the number of players in a team:");
     scanf("%d",&t.numplayers);
+    input_n_fritacoles(t.numplayers,t.players);
     return t;
 }
 
@@ -88,9 +90,9 @@ game input_game()
 {
    game g;
    printf("Enter details of Team 1:\n");
-   //scanf("%d",&g.teams) or g.team1= input_team
+   g.teams[0] = input_team();
    printf("Enter details of Team 2:\n");
-
+   g.teams[1] = input_team();
    printf("Enter the number of points:");
    scanf("%d",&g.num_points);
    printf("Enter the number of fouls:");
@@ -114,3 +116,15 @@ foul input_foul()
     return f;
 }
 
+void verify_game(game g) {
+    int team_points=0;   
+    int team_fouls= 0; 
+
+    for (int i = 0; g.p[i].id <= g.teams->numplayers;i++) {
+        team_points += g.teams[0]->height + g.teams[0]->ability;
+    }
+    for (int i = 0; g.p[i].id <= g.teams->numplayers;i++) {
+        team_fouls++;
+    }    
+
+}
