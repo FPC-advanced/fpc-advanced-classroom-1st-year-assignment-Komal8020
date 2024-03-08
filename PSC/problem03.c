@@ -15,6 +15,14 @@ c. Write a function to convert a string into a fritacole.
 */
 #include<stdio.h>
 #include<string.h>
+
+int get_fid()
+{
+    static int fid = 0;
+    fid++;
+    return fid;
+}
+
 typedef struct _fritacole {
     int id;
     char name[100];
@@ -63,6 +71,7 @@ fritacole input_fritacole()
    scanf("%d",&f.discipline);
    printf("Enter the interest of fritacole:");
    scanf("%d",&f.interest);
+   f.id = get_fid();
    return f;
 }
 
@@ -100,6 +109,39 @@ game input_game()
    return g;
 }
 
+void update_game_point(game *g,point p)
+{
+   for (int i = 0; g->p[i].id <= g->teams->numplayers; i++)
+    p = g->p[g->num_points++];
+}
+void update_game_foul(game *g, foul f) {
+    
+}
+void run_game( game *g)
+{
+    int in;
+    while (1)
+    {
+        printf("enter 1 for point, 2 for foul, 3 for verify game 4 to quit");
+        scanf("%d",&in);
+        if(in == 1)
+        {
+            point p = input_point();
+            update_game_point(g,p);
+        }
+        else if ( in == 2) {
+            foul f = input_foul();
+            update_game_foul(g);
+        }
+        else if ( in== 3) {
+            int i = verifygame(g);
+            if(i == 0) {
+
+            }
+        }
+    }
+}
+
 point input_point()
 {
   point p;
@@ -119,12 +161,10 @@ foul input_foul()
 void verify_game(game g) {
     int team_points=0;   
     int team_fouls= 0; 
-
-    for (int i = 0; g.p[i].id <= g.teams->numplayers;i++) {
-        team_points += g.teams[0]->height + g.teams[0]->ability;
+    for (int i = 0; g.p[i].id <= g.teams->players;i++) {
+        team_points++;
     }
-    for (int i = 0; g.p[i].id <= g.teams->numplayers;i++) {
+    for (int i = 0; g.f[i].id <= g.teams->players;i++) {
         team_fouls++;
-    }    
-
+    }
 }
