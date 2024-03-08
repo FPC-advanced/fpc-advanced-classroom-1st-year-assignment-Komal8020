@@ -112,7 +112,7 @@ game input_game()
 void update_game_point(game *g,point p)
 {
    for (int i = 0; g->p[i].id <= g->teams->numplayers; i++)
-    p = g->p[g->num_points++];
+    
 }
 void update_game_foul(game *g, foul f) {
     
